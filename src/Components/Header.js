@@ -13,7 +13,7 @@ class Header extends Component {
     return (
       <header style={ myStyles }>
         <h1>{ this.props.title }</h1>
-        <p>A Free Bootstrap Theme by Start Bootstrap</p>
+        <p>Web Developer, Programmer, Designer, & Filmmaker</p>
         <a href="#button">{ this.props.button }</a>
       </header>
     );

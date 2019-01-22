@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+
+// Styling
 import './SASS/index.sass';
 
-//import App from './App';
+// Components
 import Navigation from './Components/Navigation';
 import Header from './Components/Header';
+import Projects from './Components/Projects';
+
+// Misc.
 import * as serviceWorker from './serviceWorker';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Navigation logoTitle="React Project" />
-        <Header title="Stylish Portfolio" button="Find Out More" />
+        <Navigation logoTitle="Christopher Obando" />
+        <Header title="Christopher Obando" button="Read My Bio" />
+        <Projects />
       </div>
     );
   }

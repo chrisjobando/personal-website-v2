@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-import '../SASS/Navigation.sass';
+import '../SASS/navigation.sass';
 
 class Navigation extends Component {
   render() {
