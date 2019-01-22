@@ -1,13 +1,20 @@
+// Initial Imports
 import React, { Component } from 'react';
+
+// Section Background
 import Background from '../img/bg-masthead.jpg';
+
+// Styling
 import '../SASS/header.sass';
 
+// Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
   height: '50vh',
   backgroundSize: 'cover',
 };
 
+// Main HTML
 class Header extends Component {
   render() {
     return (

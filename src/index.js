@@ -1,3 +1,4 @@
+// Initial Imports
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -12,6 +13,7 @@ import Projects from './Components/Projects';
 // Misc.
 import * as serviceWorker from './serviceWorker';
 
+// Main HTML
 class App extends Component {
   render() {
     return (
@@ -24,5 +26,6 @@ class App extends Component {
   }
 }
 
+// Renders app
 ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();

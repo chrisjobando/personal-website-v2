@@ -1,6 +1,10 @@
+// Initial import
 import React, { Component } from 'react';
+
+// Styling
 import '../SASS/projects.sass';
 
+// Main HTML
 class Projects extends Component {
 
   render() {
@@ -9,12 +13,16 @@ class Projects extends Component {
         <h3>projects</h3>
         <h2>Check Out My Github!</h2>
 
+        // Creates div for the row of icons/captions
         <div className="row">
           <div>
+            // Contains Font Awesome Icon
             <span>
               <i class="fas fa-gamepad" />
             </span>
+            // Project Title
             <h4>Shadow Knight (CS2261)</h4>
+            // Description
             <p>A Mode-0 GameBoy game developed in C</p>
           </div>
           <div>
