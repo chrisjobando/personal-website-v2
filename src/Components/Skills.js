@@ -24,7 +24,7 @@ class Skills extends Component {
         <div className="row">
           <div className="subrow">
             <span>
-              <i class="fab fa-ubuntu" />
+              <i class="fas fa-desktop" />
             </span>
             <h4>PLATFORMS</h4>
             <ul>
@@ -35,7 +35,7 @@ class Skills extends Component {
           </div>
           <div className="subrow">
             <span>
-              <i class="fab fa-java" />
+              <i class="far fa-file-code"/>
             </span>
             <h4>PROGRAMMING</h4>
               <ul>
@@ -51,7 +51,7 @@ class Skills extends Component {
           </div>
           <div className="subrow">
             <span>
-              <i class="fab fa-html5" />
+              <i class="fas fa-laptop-code"/>
             </span>
             <h4>WEB DESIGN</h4>
             <ul>
@@ -69,7 +69,7 @@ class Skills extends Component {
           </div>
           <div className="subrow">
             <span>
-              <i class="fab fa-adobe" />
+              <i class="fas fa-paint-brush" />
             </span>
             <h4>GRAPHIC DESIGN</h4>
               <ul>
@@ -81,7 +81,7 @@ class Skills extends Component {
           </div>
           <div className="subrow">
             <span>
-              <i class="fab fa-writing" />
+              <i class="fas fa-globe" />
             </span>
             <h4>LANGUAGES</h4>
             <ul>

@@ -15,31 +15,31 @@ class Social extends Component {
         <div className="row1">
           <div>
             <span>
-              <i class="fas fa-github" />
+              <i class="fab fa-github" />
             </span>
             <h4>Github</h4>
           </div>
           <div>
             <span>
-              <i class="fas fa-linkedin" />
+              <i class="fab fa-linkedin" />
             </span>
             <h4>LinkedIn</h4>
           </div>
           <div>
             <span>
-              <i class="fas fa-dribbble" />
+              <i class="fab fa-dribbble" />
             </span>
             <h4>Dribbble</h4>
           </div>
           <div>
             <span>
-              <i class="fas fa-camera" />
+              <i class="fab fa-instagram" />
             </span>
             <h4>Instagram</h4>
           </div>
           <div>
             <span>
-              <i class="fas fa-music" />
+              <i class="fab fa-spotify" />
             </span>
             <h4>Spotify</h4>
           </div>
