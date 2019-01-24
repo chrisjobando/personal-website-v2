@@ -9,6 +9,8 @@ import './SASS/index.sass';
 import Navigation from './Components/Navigation';
 import Header from './Components/Header';
 import Projects from './Components/Projects';
+import Skills from './Components/Skills';
+import Social from './Components/Social';
 
 // Misc.
 import * as serviceWorker from './serviceWorker';
@@ -21,6 +23,8 @@ class App extends Component {
         <Navigation logoTitle="Christopher Obando" />
         <Header title="Christopher Obando" button="Read My Bio" />
         <Projects />
+        <Skills title="Skills" button="See My Resume"/>
+        <Social />
       </div>
     );
   }

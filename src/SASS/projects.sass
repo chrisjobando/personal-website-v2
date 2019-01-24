@@ -1,5 +1,5 @@
 .projects
-  background-color: #1d809f
+  background-color: #102e4a
   padding-top: 120px
   padding-bottom: 120px
   text-align: center
@@ -11,7 +11,7 @@
     margin-top: 0
 
   h3
-    font-size: 16px
+    font-size: 22px
     text-transform: uppercase
     color: rgb(236, 184, 7)
     margin: 0
@@ -27,9 +27,13 @@
       height: 112px
       display: inline-block
       border-radius: 50%
-      color: #1d809f
+      color: #102e4a
       font-size: 50px
       line-height: 120px
+
+    .react
+      font-size: 60px
+      animation: Spin infinite 30s linear
 
     h4
       margin-bottom: 8px
@@ -41,3 +45,9 @@
       font-size: 14px
       color: #fff
       margin: 0
+
+@keyframes Spin
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)

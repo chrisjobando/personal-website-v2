@@ -37,7 +37,7 @@ class Projects extends Component {
             <p>& warns home-owners of possible damage to their panels</p>
           </div>
           <div>
-            <span>
+            <span className="react">
               <i class="fab fa-react" />
             </span>
             <h4>React App Site (Personal Ongoing)</h4>
