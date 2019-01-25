@@ -11,6 +11,7 @@ import Header from './Components/Header';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Social from './Components/Social';
+import Notes from './Components/Notes';
 
 // Misc.
 import * as serviceWorker from './serviceWorker';
@@ -25,6 +26,7 @@ class App extends Component {
         <Projects />
         <Skills title="Skills" button="See My Resume"/>
         <Social />
+        <Notes title="Sign up for Chris' Notes!"/>
       </div>
     );
   }

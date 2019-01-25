@@ -15,14 +15,20 @@ class Projects extends Component {
         <div className="row">
           <div>
             <span>
-              <i class="fas fa-gamepad" />
-            </span>
+              <a href="https://github.com/chrisjobando/CS2261/tree/master/Milestones/Final"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-gamepad" />
+              </a>
+          </span>
             <h4>Shadow Knight (CS2261)</h4>
             <p>A Mode-0 GameBoy game developed in C</p>
           </div>
           <div>
             <span>
-              <i class="fas fa-mobile-alt" />
+              <a href="https://github.com/team-splash/cs-2340/graphs/contributors"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-mobile-alt" />
+              </a>
             </span>
             <h4>Donation Tracker App (CS2340)</h4>
             <p>Java-based Android App to track donations</p>
@@ -30,15 +36,21 @@ class Projects extends Component {
           </div>
           <div>
             <span>
-              <i class="fas fa-solar-panel" />
-            </span>
+              <a href="http://grandchallenges.gatech.edu/content/caelum-diagnostics"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-solar-panel" />
+              </a>
+          </span>
             <h4>Caulum Diagnostics (GC 2017)</h4>
             <p>MATLAB-based program to monitor solar panel statistics</p>
             <p>& warns home-owners of possible damage to their panels</p>
           </div>
           <div>
             <span className="react">
-              <i class="fab fa-react" />
+              <a href="https://github.com/chrisjobando/personal-website"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-react" />
+              </a>
             </span>
             <h4>React App Site (Personal Ongoing)</h4>
             <p>Gaining familiarity with React.js framework,</p>

@@ -15,38 +15,53 @@ class Social extends Component {
         <div className="row1">
           <div>
             <span>
-              <i class="fab fa-github" />
+              <a href="https://github.com/chrisjobando" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github" />
+              </a>
             </span>
             <h4>Github</h4>
           </div>
           <div>
             <span>
-              <i class="fab fa-linkedin" />
+                <a href="https://linkedin.com/in/chrisjobando" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fab fa-linkedin" />
+                </a>
             </span>
             <h4>LinkedIn</h4>
           </div>
           <div>
             <span>
-              <i class="fab fa-dribbble" />
+              <a href="https://dribbble.com/chrisjobando" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-dribbble" />
+              </a>
             </span>
             <h4>Dribbble</h4>
           </div>
           <div>
             <span>
-              <i class="fab fa-instagram" />
+              <a href="https://instagram.com/chrisjobando" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-instagram" />
+              </a>
             </span>
             <h4>Instagram</h4>
           </div>
           <div>
             <span>
-              <i class="fab fa-spotify" />
-            </span>
+              <a href="https://open.spotify.com/user/chrisjobando" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-spotify" />
+              </a>
+          </span>
             <h4>Spotify</h4>
           </div>
           <div>
             <span>
-              <i class="fas fa-film" />
-            </span>
+              <a href="https://letterboxd.com/chrisjobando/" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-film" />
+              </a>
+          </span>
             <h4>Letterboxd</h4>
           </div>
         </div>
