@@ -65,22 +65,22 @@ class Notes extends Component {
               <ul>
                 <li>
                   <a href="https://us7.campaign-archive.com/?u=93526193f4277ff64a96284e0&id=ec6712d2c6"
-                    target="_blank">First Note
+                    target="_blank" rel="noopener noreferrer">First Note
                   </a>
                 </li>
                 <li>
                   <a href="https://mailchi.mp/7a12828d7734/k6q8ettyhq-2260421"
-                    target="_blank">Second Note
+                    target="_blank" rel="noopener noreferrer">Second Note
                   </a>
                 </li>
                 <li>
                   <a href="https://mailchi.mp/28d9b0a98edd/k6q8ettyhq-2265173"
-                    target="_blank">Third Note
+                    target="_blank" rel="noopener noreferrer">Third Note
                   </a>
                 </li>
                 <li>
                   <a href="https://mailchi.mp/9cea98cd793d/k6q8ettyhq-2278305"
-                    target="_blank">Fourth Note
+                    target="_blank" rel="noopener noreferrer">Fourth Note
                   </a>
                 </li>
               </ul>
