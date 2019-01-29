@@ -29,7 +29,7 @@ const CustomForm = ({ status, message, onValidated }) => {
       NAME: name.value,
     });
 
-    // Mailchimp form Styling
+    // Mailchimp Form Styling
     return (
     <div
       style={{
@@ -70,6 +70,7 @@ const CustomForm = ({ status, message, onValidated }) => {
           width: '100%',
           padding: '0 10px',
           fontSize: '18px',
+          fontWeight: '600',
         }}
         ref={node => (name = node)}
         type="text"
@@ -86,6 +87,7 @@ const CustomForm = ({ status, message, onValidated }) => {
           width: '100%',
           padding: '0 10px',
           fontSize: '18px',
+          fontWeight: '600',
         }}
         ref={node => (email = node)}
         type="email"
@@ -101,9 +103,11 @@ const CustomForm = ({ status, message, onValidated }) => {
           display: 'block',
           height: '60px',
           width: '100%',
-          padding: '0 10px',
+          padding: '0 20px',
           fontSize: '24px',
           flex: '1',
+          borderTopLeftRadius: '.5rem',
+          borderBottomLeftRadius: '.5rem',
         }}
         onClick={submit}>
         Submit
