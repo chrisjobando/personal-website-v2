@@ -17,7 +17,7 @@ class Projects extends Component {
             <span>
               <a href="https://github.com/chrisjobando/CS2261/tree/master/Milestones/Final"
                 target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-gamepad" />
+                <i className="fas fa-gamepad" />
               </a>
           </span>
             <h4>Shadow Knight (CS2261)</h4>
@@ -27,7 +27,7 @@ class Projects extends Component {
             <span>
               <a href="https://github.com/team-splash/cs-2340/graphs/contributors"
                 target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-mobile-alt" />
+                <i className="fas fa-mobile-alt" />
               </a>
             </span>
             <h4>Donation Tracker App (CS2340)</h4>
@@ -38,7 +38,7 @@ class Projects extends Component {
             <span>
               <a href="http://grandchallenges.gatech.edu/content/caelum-diagnostics"
                 target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-solar-panel" />
+                <i className="fas fa-solar-panel" />
               </a>
           </span>
             <h4>Caulum Diagnostics (GC 2017)</h4>
@@ -49,7 +49,7 @@ class Projects extends Component {
             <span className="react">
               <a href="https://github.com/chrisjobando/personal-website"
                 target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-react" />
+                <i className="fab fa-react" />
               </a>
             </span>
             <h4>React App Site (Personal Ongoing)</h4>

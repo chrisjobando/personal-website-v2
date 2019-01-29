@@ -47,19 +47,6 @@ const CustomForm = ({ status, message, onValidated }) => {
         borderRadius: '.5rem',
       }}
     >
-      {status === 'sending' && <div style={{ color: 'blue' }}>Sending...</div>}
-      {status === 'error' && (
-        <div
-          style={{ color: 'red' }}
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
-      {status === 'success' && (
-        <div
-          style={{ color: 'green' }}
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
       <input
         style={{
           position: 'relative',
@@ -112,6 +99,19 @@ const CustomForm = ({ status, message, onValidated }) => {
         onClick={submit}>
         Submit
       </button>
+      {status === 'sending' && <div style={{ color: 'blue' }}>Sending...</div>}
+      {status === 'error' && (
+        <div
+          style={{ color: 'red' }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      {status === 'success' && (
+        <div
+          style={{ color: 'green' }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
     </div>
     );
   };
@@ -139,7 +139,7 @@ class Notes extends Component {
             />
           </div>
           <div className="col-1">
-            <p>Chris Notes are short weekly emails that include a topic I was interested in that week,
+            <p>Chris' Notes are short weekly emails that include a topic I was interested in that week,
                recommendations for cool media I enjoy, and progress on my projects!</p>
           </div>
           <div className="col-2">

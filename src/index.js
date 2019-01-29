@@ -1,17 +1,17 @@
 // Initial Imports
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Route from 'react-router-dom/Route';
 
 // Styling
 import './SASS/index.sass';
 
 // Components
 import Navigation from './Components/Navigation';
-import Header from './Components/Header';
-import Projects from './Components/Projects';
-import Skills from './Components/Skills';
-import Social from './Components/Social';
-import Notes from './Components/Notes';
+
+// Router Components
+import Home from './Components/Home';
 
 // Misc.
 import * as serviceWorker from './serviceWorker';
@@ -21,12 +21,15 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navigation logoTitle="Christopher Obando" />
-        <Header title="Christopher Obando" button="Read My Bio" />
-        <Projects />
-        <Skills title="Skills" button="See My Resume"/>
-        <Social />
-        <Notes title="Sign up for Chris' Notes!"/>
+        <Router>
+          <div>
+            <Navigation logoTitle="Christopher Obando" />
+            <Route path='/' exact component={ Home }/>
+            <Route path='/about' exact render={ ()=> <h1>About Page</h1> }/>
+            <Route path='/resume' exact render={ ()=> <h1>Resume Page</h1> }/>
+            <Route path='/portfolio' exact render={ ()=> <h1>Portfolio Page</h1> }/>
+          </div>
+        </Router>
       </div>
     );
   }

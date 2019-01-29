@@ -16,7 +16,7 @@ class Social extends Component {
           <div>
             <span>
               <a href="https://github.com/chrisjobando" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github" />
+                <i className="fab fa-github" />
               </a>
             </span>
             <h4>Github</h4>
@@ -25,7 +25,7 @@ class Social extends Component {
             <span>
                 <a href="https://linkedin.com/in/chrisjobando" target="_blank"
                   rel="noopener noreferrer">
-                  <i class="fab fa-linkedin" />
+                  <i className="fab fa-linkedin" />
                 </a>
             </span>
             <h4>LinkedIn</h4>
@@ -33,7 +33,7 @@ class Social extends Component {
           <div>
             <span>
               <a href="https://dribbble.com/chrisjobando" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-dribbble" />
+                <i className="fab fa-dribbble" />
               </a>
             </span>
             <h4>Dribbble</h4>
@@ -42,7 +42,7 @@ class Social extends Component {
             <span>
               <a href="https://instagram.com/chrisjobando" target="_blank"
                 rel="noopener noreferrer">
-                <i class="fab fa-instagram" />
+                <i className="fab fa-instagram" />
               </a>
             </span>
             <h4>Instagram</h4>
@@ -51,7 +51,7 @@ class Social extends Component {
             <span>
               <a href="https://open.spotify.com/user/chrisjobando" target="_blank"
                 rel="noopener noreferrer">
-                <i class="fab fa-spotify" />
+                <i className="fab fa-spotify" />
               </a>
           </span>
             <h4>Spotify</h4>
@@ -59,7 +59,7 @@ class Social extends Component {
           <div>
             <span>
               <a href="https://letterboxd.com/chrisjobando/" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-film" />
+                <i className="fas fa-film" />
               </a>
           </span>
             <h4>Letterboxd</h4>

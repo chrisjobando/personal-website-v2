@@ -24,7 +24,6 @@ class Header extends Component {
         <img src={ Picture } alt="headshot"></img>
         <h1>{ this.props.title }</h1>
         <p>Web Developer, Programmer, Designer, & Filmmaker</p>
-        <a href="#button">{ this.props.button }</a>
       </header>
     );
   }
