@@ -33,10 +33,18 @@ const CustomForm = ({ status, message, onValidated }) => {
     return (
     <div
       style={{
-        background: '#efefef',
-        borderRadius: 2,
-        padding: 10,
-        display: 'inline-block',
+        maxWidth: '640px',
+        padding: 0,
+        paddingLeft: '10px',
+        boxSizing: 'border-box',
+        width: '100%',
+        display: 'flex',
+        margin: '100px auto',
+        background: 'rgba(white, 0.3)',
+        border: '3px solid white',
+        boxShadow: '0px 3px 8px rgba(yellow, 0.3)',
+        color: 'white',
+        borderRadius: '.5rem',
       }}
     >
       {status === 'sending' && <div style={{ color: 'blue' }}>Sending...</div>}
@@ -53,20 +61,51 @@ const CustomForm = ({ status, message, onValidated }) => {
         />
       )}
       <input
-        style={{ fontSize: '2em', padding: 5 }}
+        style={{
+          position: 'relative',
+          border: 0,
+          background: 'none',
+          display: 'block',
+          height: '60px',
+          width: '100%',
+          padding: '0 10px',
+          fontSize: '18px',
+        }}
         ref={node => (name = node)}
         type="text"
         placeholder="First Name"
       />
       <br />
       <input
-        style={{ fontSize: '2em', padding: 5 }}
+        style={{
+          position: 'relative',
+          border: 0,
+          background: 'none',
+          display: 'block',
+          height: '60px',
+          width: '100%',
+          padding: '0 10px',
+          fontSize: '18px',
+        }}
         ref={node => (email = node)}
         type="email"
         placeholder="Email Address"
       />
       <br />
-      <button style={{ fontSize: '2em', padding: 5 }} onClick={submit}>
+      <button
+        style={{
+          position: 'relative',
+          border: 0,
+          background: 'white',
+          color: 'none',
+          display: 'block',
+          height: '60px',
+          width: '100%',
+          padding: '0 10px',
+          fontSize: '24px',
+          flex: '1',
+        }}
+        onClick={submit}>
         Submit
       </button>
     </div>
