@@ -1,5 +1,6 @@
 // Initial Imports
 import React, { Component } from 'react';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 // Section Background
 import Background from '../img/notes-bg.jpg';
@@ -15,45 +16,84 @@ const myStyles = {
   backgroundPosition: 'center bottom',
 };
 
+// Mailchimp Form Component
+const CustomForm = ({ status, message, onValidated }) => {
+    let email;
+    let name;
+    const submit = () =>
+    email &&
+    name &&
+    email.value.indexOf('@') > -1 &&
+    onValidated({
+      EMAIL: email.value,
+      NAME: name.value,
+    });
+
+    // Mailchimp form Styling
+    return (
+    <div
+      style={{
+        background: '#efefef',
+        borderRadius: 2,
+        padding: 10,
+        display: 'inline-block',
+      }}
+    >
+      {status === 'sending' && <div style={{ color: 'blue' }}>Sending...</div>}
+      {status === 'error' && (
+        <div
+          style={{ color: 'red' }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      {status === 'success' && (
+        <div
+          style={{ color: 'green' }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      <input
+        style={{ fontSize: '2em', padding: 5 }}
+        ref={node => (name = node)}
+        type="text"
+        placeholder="First Name"
+      />
+      <br />
+      <input
+        style={{ fontSize: '2em', padding: 5 }}
+        ref={node => (email = node)}
+        type="email"
+        placeholder="Email Address"
+      />
+      <br />
+      <button style={{ fontSize: '2em', padding: 5 }} onClick={submit}>
+        Submit
+      </button>
+    </div>
+    );
+  };
+
 // Main HTML
 class Notes extends Component {
   render() {
+    const url =
+    'https://github.us7.list-manage.com/subscribe/post?u=93526193f4277ff64a96284e0&amp;id=29966d00de';
     return (
       <header style={ myStyles }>
         <div className='rect'>
           <h1>{ this.props.title }</h1>
-          <div className="notes-signup-box">
 
-            <div id="mc_embed_signup">
-              <form action="https://github.us7.list-manage.com/subscribe/post?u=93526193f4277ff64a96284e0&amp;id=29966d00de"
-                method="post" id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-
-                  <div className="form-display">
-                    <div className="mc-field-group">
-                    	<label for="mce-FNAME">First Name </label>
-                    	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" />
-                    </div>
-
-                    <div className="mc-field-group">
-                    	<label for="mce-EMAIL">Email Address </label>
-                    	<input type="email" value="" name="EMAIL" class="required email"
-                        id="mce-EMAIL" />
-                    </div>
-
-                    <div className="clear"><input type="submit" value="Subscribe" name="subscribe"
-                      id="mc-embedded-subscribe" class="button" /></div>
-                  </div>
-
-                  <div id="mce-responses" class="clear">
-                  	<div className="response" id="mce-error-response"></div>
-                  	<div className="response" id="mce-success-response"></div>
-                  </div>
-                </div>
-            </form>
-            </div>
-
+          <div>
+            <MailchimpSubscribe
+              url={url}
+              render={({ subscribe, status, message }) => (
+                <CustomForm
+                  status={status}
+                  message={message}
+                  onValidated={formData => subscribe(formData)}
+                  />
+              )}
+            />
           </div>
           <div className="col-1">
             <p>Chris Notes are short weekly emails that include a topic I was interested in that week,
