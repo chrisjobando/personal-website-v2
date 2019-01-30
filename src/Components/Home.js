@@ -18,7 +18,7 @@ class Home extends Component {
       <div>
         <Header title="Christopher Obando" />
         <Projects />
-        <Skills title="Skills" button="See My Resume" />
+        <Skills title="Skills" />
         <Social />
         <Notes title="Sign up for Chris' Notes!" />
       </div>

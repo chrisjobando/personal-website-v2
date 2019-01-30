@@ -89,8 +89,6 @@ class Skills extends Component {
             </ul>
           </div>
         </div>
-
-        <a href="#button">{ this.props.button }</a>
       </header>
     );
   }

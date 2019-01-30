@@ -12,6 +12,8 @@ import Navigation from './Components/Navigation';
 
 // Router Components
 import Home from './Components/Home';
+import AboutMe from './Components/AboutPage';
+import Resume from './Components/ResumePage';
 
 // Misc.
 import * as serviceWorker from './serviceWorker';
@@ -25,8 +27,8 @@ class App extends Component {
           <div>
             <Navigation logoTitle="Christopher Obando" />
             <Route path='/' exact component={ Home }/>
-            <Route path='/about' exact render={ ()=> <h1>About Page</h1> }/>
-            <Route path='/resume' exact render={ ()=> <h1>Resume Page</h1> }/>
+            <Route path='/about' exact component={ AboutMe }/>
+            <Route path='/resume' exact component={ Resume }/>
             <Route path='/portfolio' exact render={ ()=> <h1>Portfolio Page</h1> }/>
           </div>
         </Router>
