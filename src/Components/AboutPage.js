@@ -19,6 +19,7 @@ class AboutMe extends Component {
     return (
       <div className="about" style={ myStyles }>
         <div className="rect">
+          <title>about me</title>
           <h1>Hey! My name is <span>Christopher</span>.</h1>
 
           <p>I'm a second-year Computer Science major at Georgia Tech,

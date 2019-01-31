@@ -19,16 +19,18 @@ class Resume extends Component {
   render() {
     return (
       <div className="resume" style={ myStyles }>
-          <Iframe
-            url="https://resume.creddle.io/embed/hriqjcweh5p"
-            width="850px"
-            height="1100px"
-            id="resume"
-            className="myResume"
-            display="initial"
-            position="relative"
-            allowFullScreen
-          />
+        <title>my resume</title>
+        <Iframe
+          url="https://resume.creddle.io/embed/hriqjcweh5p"
+          width="850px"
+          height="1100px"
+          id="resume"
+          className="myResume"
+          display="initial"
+          position="relative"
+          allowFullScreen
+          styles={{ border: '5px double #102e4a' }}
+        />
       </div>
     );
   }

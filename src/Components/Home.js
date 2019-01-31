@@ -16,6 +16,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <title>chris obando</title>
         <Header title="Christopher Obando" />
         <Projects />
         <Skills title="Skills" />

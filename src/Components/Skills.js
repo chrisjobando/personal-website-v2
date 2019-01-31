@@ -56,7 +56,9 @@ class Skills extends Component {
             <h4>WEB DESIGN</h4>
             <ul>
               <li>React.js</li>
-              <li>Javascript</li>
+              <li>Angular 7</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>SASS</li>
               <li>Pug</li>
               <li>Gulp</li>
@@ -76,6 +78,8 @@ class Skills extends Component {
                 <li>Inkscape</li>
                 <li>GIMP</li>
                 <li>Adobe Photoshop</li>
+                <li>POV Ray</li>
+                <li>Blender</li>
                 <li>Autodesk Maya</li>
               </ul>
           </div>

@@ -14,6 +14,8 @@ import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import AboutMe from './Components/AboutPage';
 import Resume from './Components/ResumePage';
+import Portfolio from './Components/PortfolioPage';
+import Contact from './Components/ContactPage';
 
 // Misc.
 import * as serviceWorker from './serviceWorker';
@@ -29,7 +31,8 @@ class App extends Component {
             <Route path='/' exact component={ Home }/>
             <Route path='/about' exact component={ AboutMe }/>
             <Route path='/resume' exact component={ Resume }/>
-            <Route path='/portfolio' exact render={ ()=> <h1>Portfolio Page</h1> }/>
+            <Route path='/portfolio' exact component={ Portfolio }/>
+            <Route path='/contact' exact component={ Contact }/>
           </div>
         </Router>
       </div>
