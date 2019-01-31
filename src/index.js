@@ -16,6 +16,7 @@ import AboutMe from './Components/AboutPage';
 import Resume from './Components/ResumePage';
 import Portfolio from './Components/PortfolioPage';
 import Contact from './Components/ContactPage';
+import GameBoy from './Components/ShadowKnightPage';
 
 // Misc.
 import * as serviceWorker from './serviceWorker';
@@ -33,6 +34,7 @@ class App extends Component {
             <Route path='/resume' exact component={ Resume }/>
             <Route path='/portfolio' exact component={ Portfolio }/>
             <Route path='/contact' exact component={ Contact }/>
+            <Route path='/shadowKnightGBA' exact component={ GameBoy }/>
           </div>
         </Router>
       </div>

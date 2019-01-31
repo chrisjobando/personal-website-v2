@@ -25,7 +25,7 @@ class Portfolio extends Component {
         <title>my projects</title>
         <h1>Featured Projects:</h1>
         <div className="rect">
-          <Link to="/">
+          <Link to="/shadowKnightGBA">
             <p>Shadow Knight</p>
             <img src={ ShadowKnight } alt="Shadow Knight"></img>
           </Link>

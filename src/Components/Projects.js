@@ -15,8 +15,7 @@ class Projects extends Component {
         <div className="row">
           <div>
             <span>
-              <a href="https://github.com/chrisjobando/CS2261/tree/master/Milestones/Final"
-                target="_blank" rel="noopener noreferrer">
+              <a href="/shadowKnightGBA" rel="noopener noreferrer">
                 <i className="fas fa-gamepad" />
               </a>
           </span>

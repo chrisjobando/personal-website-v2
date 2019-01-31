@@ -20,7 +20,7 @@ class Contact extends Component {
       <div className="contact" style={ myStyles }>
         <div className="rect">
           <title>contact me</title>
-          <h1>Shoot Me An Email</h1>
+          <h1>Shoot Me An Email!</h1>
         </div>
       </div>
     );
