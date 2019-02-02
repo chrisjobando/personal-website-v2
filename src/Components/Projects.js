@@ -45,15 +45,15 @@ class Projects extends Component {
             <p>& warns home-owners of possible damage to their panels</p>
           </div>
           <div>
-            <span className="react">
-              <a href="https://github.com/chrisjobando/personal-website"
+            <span>
+              <a href="https://chrisjobando.github.io"
                 target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-react" />
+                <i className="fas fa-desktop" />
               </a>
             </span>
-            <h4>React App Site (Personal Ongoing)</h4>
-            <p>Gaining familiarity with React.js framework,</p>
-            <p>self-teaching JavaScript</p>
+            <h4>Old Web Site (Personal)</h4>
+            <p>Gaining familiarity with HTML/CSS and related frameworks </p>
+            <p>& basic JavaScript. This site is responsive & uses Gulp</p>
           </div>
         </div>
       </div>
