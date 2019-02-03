@@ -1,33 +1,66 @@
-nav
-  display: flex
-  justify-content: space-between
+.toolbar
+  position: fixed
+  width: 100%
   background-color: #102e4a
-  align-items: center
-  padding-left: 20px
-  padding-right: 20px
   height: 60px
 
-  ul
-    list-style: none
+  .toolbar-nav
+    display: flex
+    align-items: center
+    height: 100%
+    padding: 0 1rem
 
-    li
-      display: inline-block
-      margin-right: 12px
+    @media (min-width: 769px)
+      .toggle-button
+        display: none
+
+    .toolbar-logo
+      margin-left: 1rem
+      @media (min-width: 769px)
+        margin-left: 0
+      a
+        background: url('../img/logo.png') no-repeat left center
+        float: right
+        font-size: 0px
+        height: 40px
+        width: 500px
+        display: block
+        @media (max-width: 880px)
+          background: url('../img/logo-notext.png') no-repeat left center
+          width: 98px
+
+    .spacer
+      flex: 1
+
+    .toolbar-nav-items
+      ul
+        list-style: none
+        margin: 0
+        padding: 0
+        display: flex
+        li
+          padding: 0 0.5rem
 
       a
+        color: white
         text-decoration: none
-        color: #fff
         font-weight: 600
-        font-size: 20px
+        &:hover, &:active
+          color: rgb(236, 184, 7)
 
-.logo
-    background:
-      image: url(../img/logo.png)
-      repeat: no-repeat
-      size: contain
-    height: 80%
-    width: 60vh
+@media (max-width: 768px)
+  .toolbar-nav-items
+    display: none
 
-    text-indent: 100%
-    white-space: nowrap
-    overflow: hidden
+//   .logo
+//     z-index: 3
+//     margin-left: 20px
+//     width: 100%
+//     max-width: 500px
+//     height: 100%
+//     box-sizing: border-box
+//
+//
+//     @media (max-width: 1030px)
+//       max-width: 150px
+//       background: url('../img/logo-notext.png') left center no-repeat

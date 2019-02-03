@@ -27,7 +27,7 @@ class Contact extends Component {
           chrisjobando@gatech.edu
         </a>
         <p></p>
-        <img src={ Picture } />
+        <img src={ Picture } alt="Me" />
       </div>
     );
   }

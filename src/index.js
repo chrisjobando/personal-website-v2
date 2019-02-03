@@ -9,6 +9,8 @@ import './SASS/index.sass';
 
 // Components
 import Navigation from './Components/Navigation';
+import NavDrawer from './Components/NavDrawer/NavDrawer';
+import Backdrop from './Components/Backdrop/Backdrop';
 
 // Router Components
 import Home from './Components/Home';
@@ -23,12 +25,33 @@ import * as serviceWorker from './serviceWorker';
 
 // Main HTML
 class App extends Component {
+  state = {
+    navDrawerOpen: false,
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return { navDrawerOpen: !prevState.navDrawerOpen };
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({ navDrawerOpen: false });
+  };
+
   render() {
+    let backdrop;
+    if (this.state.navDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
+
     return (
       <div>
         <Router>
-          <div>
-            <Navigation logoTitle="Christopher Obando" />
+          <div style={{ height: '100%' }}>
+            <Navigation drawerClickHandler={this.drawerToggleClickHandler} />
+            <NavDrawer show={this.state.navDrawerOpen} />
+            {backdrop}
             <Route path='/' exact component={ Home }/>
             <Route path='/about' exact component={ AboutMe }/>
             <Route path='/resume' exact component={ Resume }/>

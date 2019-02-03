@@ -1,0 +1,34 @@
+.nav-drawer
+  height: 100%
+  background: #102e4a
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5)
+  position: fixed
+  top: 0
+  left: 0
+  width: 70%
+  max-width: 400px
+  z-index: 200
+  transform: translateX(-100%)
+  transition: transform 0.3s ease-out
+
+  @media (min-width: 769px)
+    display: none
+
+  ul
+    height: 100%
+    list-style: none
+    display: flex
+    flex-direction: column
+    justify-content: center
+    li
+      margin: 1rem 0
+      a
+        color: white
+        text-decoration: none
+        font-size: 1.2rem
+        font-weight: 600
+        &:hover, &:active
+          color: rgb(236, 184, 7)
+
+.open
+  transform: translateX(0)
