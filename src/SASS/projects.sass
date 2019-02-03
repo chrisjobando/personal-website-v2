@@ -1,7 +1,7 @@
 .projects
   background-color: #102e4a
-  padding-top: 120px
-  padding-bottom: 120px
+  padding-top: 90px
+  padding-bottom: 90px
   text-align: center
 
   h2
@@ -20,8 +20,11 @@
   .row
     display: flex
     justify-content: space-around
+    @media (max-width: 700px)
+      display: block
 
     span
+      margin-top: 20px
       background-color: #fff
       width: 112px
       height: 112px

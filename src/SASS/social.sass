@@ -20,6 +20,11 @@
   .row1
     display: flex
     justify-content: space-around
+    @media (max-width: 760px)
+      display: block
+      column-count: 3
+    @media (max-width: 410px)
+      column-count: 2
 
   span
     background-color: #fff

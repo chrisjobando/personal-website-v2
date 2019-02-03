@@ -1,8 +1,9 @@
-header
+.notes
   margin: 0 auto
   content-align: center
   text-align: center
-  padding-top: 100px
+  padding-top: 50px
+  padding-bottom: 50px
 
   .rect
     margin-left: auto
@@ -11,11 +12,16 @@ header
     height: 90%
     background-color: rgba(0,0,0,.65)
     border-radius: 1rem
+    padding-bottom: 15px
 
     h1
       padding-top: 15px
       font-size: 4rem
       color: #fff
+      @media (max-width: 775px)
+        font-size: 3rem
+      @media (max-width: 450px)
+        font-size: 2rem
 
     p
       margin-top: 10px
@@ -29,6 +35,8 @@ header
     text-align: right
     max-width: 60vh
     margin: 0 10px
+    @media (max-width: 950px)
+      text-align: left
 
   .col-2
     padding-left: 15px
@@ -38,6 +46,9 @@ header
     text-align: left
     max-width: 60vh
     margin: 0 10px
+    @media (max-width: 950px)
+      padding: 0
+      border: none
 
     ul
       list-style: none
@@ -55,3 +66,37 @@ header
           line-height: 1.2
           font-size: 20px
           color: rgb(236, 184, 7)
+
+  button
+    margin-bottom: 30px
+    background: #102e4a
+    color: #fff
+    border: none
+    border-radius: 0.5rem
+    position: relative
+    height: 60px
+    font-weight: 600
+    font-size: 1.6em
+    cursor: pointer
+    transition: 800ms ease all
+    outline: none
+    &:hover
+      background: #fff
+      color: #102e4a
+    &:before, &:after
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      height: 2px
+      width: 0
+      background: #102e4a
+      transition: 400ms ease all
+    &:after
+      right: inherit
+      top: inherit
+      left: 0
+      bottom: 0
+    &:hover:before, &:hover:after
+      width: 100%
+      transition: 800ms ease all

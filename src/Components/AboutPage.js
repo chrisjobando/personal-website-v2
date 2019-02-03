@@ -9,7 +9,7 @@ import '../SASS/about-pg.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  height: '100vh',
+  height: '260vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };

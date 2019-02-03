@@ -13,7 +13,7 @@ import '../SASS/portfolio-pg.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  height: '90vh',
+  height: '100vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };
@@ -24,12 +24,10 @@ class Portfolio extends Component {
       <div className="portfolio" style={ myStyles }>
         <title>my projects</title>
         <h1>Featured Projects:</h1>
-        <div className="rect">
-          <Link to="/shadowKnightGBA">
-            <p>Shadow Knight</p>
-            <img src={ ShadowKnight } alt="Shadow Knight"></img>
-          </Link>
-        </div>
+        <Link to="/shadowKnightGBA">
+          <p>Shadow Knight</p>
+          <img src={ ShadowKnight } alt="Shadow Knight"></img>
+        </Link>
       </div>
     );
   }

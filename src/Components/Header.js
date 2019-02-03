@@ -11,7 +11,7 @@ import '../SASS/header.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  height: '80vh',
+  height: '70vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };

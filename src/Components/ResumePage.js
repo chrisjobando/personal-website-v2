@@ -22,14 +22,14 @@ class Resume extends Component {
         <title>my resume</title>
         <Iframe
           url="https://resume.creddle.io/embed/hriqjcweh5p"
-          width="850px"
-          height="1100px"
+          width="90%"
+          height="90%"
           id="resume"
           className="myResume"
           display="initial"
           position="relative"
           allowFullScreen
-          styles={{ border: '5px double #102e4a' }}
+          styles={{ border: '5px double #102e4a', marginTop: '30px', zIndex: '0' }}
         />
       </div>
     );

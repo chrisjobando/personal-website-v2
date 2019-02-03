@@ -12,7 +12,7 @@ import '../SASS/contact-pg.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  height: '90vh',
+  height: '100vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };
