@@ -14,7 +14,7 @@ class Social extends Component {
         <h2>Follow me on other platforms!</h2>
         <div className="row1">
           <div>
-            <span>
+            <span className="github">
               <a href="https://github.com/chrisjobando" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github" />
               </a>
@@ -22,7 +22,7 @@ class Social extends Component {
             <h4>Github</h4>
           </div>
           <div>
-            <span>
+            <span className="linkedin">
                 <a href="https://linkedin.com/in/chrisjobando" target="_blank"
                   rel="noopener noreferrer">
                   <i className="fab fa-linkedin" />
@@ -31,7 +31,7 @@ class Social extends Component {
             <h4>LinkedIn</h4>
           </div>
           <div>
-            <span>
+            <span className="dribbble">
               <a href="https://dribbble.com/chrisjobando" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-dribbble" />
               </a>
@@ -39,7 +39,7 @@ class Social extends Component {
             <h4>Dribbble</h4>
           </div>
           <div>
-            <span>
+            <span className="instagram">
               <a href="https://instagram.com/chrisjobando" target="_blank"
                 rel="noopener noreferrer">
                 <i className="fab fa-instagram" />
@@ -48,7 +48,7 @@ class Social extends Component {
             <h4>Instagram</h4>
           </div>
           <div>
-            <span>
+            <span className="spotify">
               <a href="https://open.spotify.com/user/chrisjobando" target="_blank"
                 rel="noopener noreferrer">
                 <i className="fab fa-spotify" />
@@ -57,8 +57,9 @@ class Social extends Component {
             <h4>Spotify</h4>
           </div>
           <div>
-            <span>
-              <a href="https://letterboxd.com/chrisjobando/" target="_blank" rel="noopener noreferrer">
+            <span className="letterboxd">
+              <a href="https://letterboxd.com/chrisjobando/"
+                target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-film" />
               </a>
           </span>
