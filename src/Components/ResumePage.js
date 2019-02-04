@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 // Section Background
 import Background from '../img/skills-bg.jpg';
+
+// Resume PDF
+import File from '../downloads/resume.pdf';
 
 // Styling
 import '../SASS/resume-pg.sass';
@@ -10,7 +12,6 @@ import '../SASS/resume-pg.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  height: '130vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };
@@ -20,16 +21,11 @@ class Resume extends Component {
     return (
       <div className="resume" style={ myStyles }>
         <title>my resume</title>
-        <Iframe
-          url="https://resume.creddle.io/embed/hriqjcweh5p"
-          width="90%"
-          height="90%"
-          id="resume"
-          className="myResume"
-          display="initial"
-          position="relative"
-          styles={{ border: '5px double #102e4a', marginTop: '30px', zIndex: '0' }}
-        />
+        <object data={File} type="application/pdf" width="100%" height="1100">
+            <p>It appears you don't have a PDF plugin for this browser.
+             No biggie... you can <a href={File}>click here to
+            download the PDF file.</a></p>
+        </object>
       </div>
     );
   }
