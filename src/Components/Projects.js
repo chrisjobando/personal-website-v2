@@ -1,5 +1,6 @@
 // Initial import
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 // Styling
 import '../SASS/projects.sass';
@@ -15,9 +16,9 @@ class Projects extends Component {
         <div className="row">
           <div>
             <span>
-              <a href="/shadowKnightGBA" rel="noopener noreferrer">
+              <Link to="/shadowKnightGBA">
                 <i className="fas fa-gamepad" />
-              </a>
+              </Link>
           </span>
             <h4>Shadow Knight (CS2261)</h4>
             <p>A Mode-0 GameBoy game developed in C</p>
