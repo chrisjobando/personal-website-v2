@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Background from '../img/skills-bg.jpg';
 
 // Resume PDF
+import Picture from '../downloads/resume.jpg';
 import File from '../downloads/resume.pdf';
 
 // Styling
@@ -21,11 +22,13 @@ class Resume extends Component {
     return (
       <div className="resume" style={ myStyles }>
         <title>my resume</title>
-        <object data={File} type="application/pdf" width="100%" height="1100">
-            <p>It appears you don't have a PDF plugin for this browser.
-             No biggie... you can <a href={File}>click here to
-            download the PDF file.</a></p>
-        </object>
+          <a href={File}
+            download="Resume.pdf">
+              <button>
+              Download the PDF
+            </button>
+          </a>
+          <img src={Picture} alt="Resume" />
       </div>
     );
   }
