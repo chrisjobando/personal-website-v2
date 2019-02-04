@@ -28,14 +28,14 @@ class AboutMe extends Component {
             for those who did not take risks. I looked to music and television as a means of escape
             from reality. The amazing production in the music videos I watched and films I saw
             inspired me to pursue a career in computer graphic design.</p>
-          <p>The wonders of seeing the dinosaurs in Jurrasic Park or the pod-racing scene in The
+          <p>The wonders of seeing the dinosaurs in Jurassic Park or the pod-racing scene in The
             Phantom Menace or my favorite childhood hero, Spider-Man, swing across New York
             City through the use of CGI gave me a sense of wonder and joy that I needed during
             rough times. I aim to one day create that same feeling for others through my digital
             creations.</p>
           <p>I arrived at Georgia Tech with a strong passion for technology but was unsure what
-            courses best fit my interests. When I found out about the Media and People threads for
-            Computer Science, I made the switch halfway through my first semester to Computer
+            courses best fit my interests. When I found out about the Media and People threads,
+            I made the switch halfway through my first semester to Computer
             Science to improve my basic programming skills. I wanted to learn how to turn code that
             I develop into an experience for users.</p>
           <p>In the upcoming semesters, I am taking high-level UI/UX CS courses as well as 3D

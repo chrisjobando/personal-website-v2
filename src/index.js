@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Route from 'react-router-dom/Route';
+import ScrollToTopRoute from './Components/ScrollToTopRoute';
 
 // Styling
 import './SASS/index.sass';
@@ -20,7 +20,7 @@ import Portfolio from './Components/PortfolioPage';
 import Contact from './Components/ContactPage';
 import GameBoy from './Components/ShadowKnightPage';
 
-// Misc.
+// Misc Import
 import * as serviceWorker from './serviceWorker';
 
 // Main HTML
@@ -52,12 +52,12 @@ class App extends Component {
             <Navigation drawerClickHandler={this.drawerToggleClickHandler} />
             <NavDrawer show={this.state.navDrawerOpen} />
             {backdrop}
-            <Route path='/' exact component={ Home }/>
-            <Route path='/about' exact component={ AboutMe }/>
-            <Route path='/resume' exact component={ Resume }/>
-            <Route path='/portfolio' exact component={ Portfolio }/>
-            <Route path='/contact' exact component={ Contact }/>
-            <Route path='/shadowKnightGBA' exact component={ GameBoy }/>
+            <ScrollToTopRoute path='/' exact component={ Home }/>
+            <ScrollToTopRoute path='/about' exact component={ AboutMe }/>
+            <ScrollToTopRoute path='/resume' exact component={ Resume }/>
+            <ScrollToTopRoute path='/portfolio' exact component={ Portfolio }/>
+            <ScrollToTopRoute path='/contact' exact component={ Contact }/>
+            <ScrollToTopRoute path='/shadowKnightGBA' exact component={ GameBoy }/>
           </div>
         </Router>
       </div>
