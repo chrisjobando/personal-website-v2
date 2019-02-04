@@ -13,7 +13,6 @@ import '../SASS/portfolio-pg.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  height: '100vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };
