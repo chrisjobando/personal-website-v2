@@ -2,28 +2,29 @@
   margin: 0 auto
   text-align: center
   color: #fff
-  padding-top: 55px
+  padding-top: 60px
+  padding-bottom: 30px
 
   .rect
-    margin-left: auto
-    margin-right: auto
+    margin: 30px auto
     width: 90%
     height: 90%
     background-color: rgba(0,0,0,.65)
     border-radius: .5rem
+    padding-bottom: 20px
 
     .head
-      img
-        margin-bottom: 30px
+      margin: auto auto
+      margin-bottom: 30px
+      @media (max-width: 775px)
+        margin-bottom: 10px
 
-      div
-        margin: auto auto
-        margin-bottom: 30px
-
-        a
-          text-decoration: none
-          color: rgb(236, 184, 7)
-          font-size: 24px
+      a
+        text-decoration: none
+        color: rgb(236, 184, 7)
+        font-size: 24px
+        @media (max-width: 775px)
+          font-size: 19px
 
     h1
       padding-top: 30px
@@ -31,6 +32,8 @@
       width: auto
       margin: 0
       font-size: 48px
+      @media (max-width: 775px)
+        font-size: 32px
 
       span
         color: rgb(236, 184, 7)
@@ -42,3 +45,5 @@
       text-align: left
       font-size: 24px
       line-height: 1.25em
+      @media (max-width: 775px)
+        font-size: 18px

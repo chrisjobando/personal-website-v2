@@ -28,7 +28,6 @@ class Resume extends Component {
           className="myResume"
           display="initial"
           position="relative"
-          allowFullScreen
           styles={{ border: '5px double #102e4a', marginTop: '30px', zIndex: '0' }}
         />
       </div>

@@ -10,7 +10,7 @@ import '../SASS/skills.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  height: '70vh',
+  height: '130vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center bottom',
 };
