@@ -25,4 +25,4 @@ As for React, I have some HTML5 and JavaScript experience and am using online do
 
 ## When Will This Replace Your Current Website?
 
-Whenever I feel like it has met/surpassed the content currently available on the website, I might sacrifice a responsive page in order to launch it on the main domain. It will be responsive in a later release though.
+As of FEBRUARY 2ND, 2019, it has! I implemented responsive design right after launch and am working on more design updates
