@@ -61,6 +61,11 @@ class Notes extends Component {
                     target="_blank" rel="noopener noreferrer">Fifth Note
                   </a>
                 </li>
+                <li>
+                  <a href="https://mailchi.mp/137a24a7d65d/k6q8ettyhq-2291997"
+                    target="_blank" rel="noopener noreferrer">Sixth Note
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
