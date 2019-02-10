@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { NewsHeaderCard } from 'react-ui-cards';
 
 // Section Background
 import Background from '../img/about-bg.jpg';
@@ -23,10 +24,12 @@ class Portfolio extends Component {
       <div className="portfolio" style={ myStyles }>
         <title>my projects</title>
         <h1>Featured Projects:</h1>
-        <Link to="/shadowKnightGBA">
-          <p>Shadow Knight</p>
-          <img src={ ShadowKnight } alt="Shadow Knight"></img>
-        </Link>
+          <Link to="/ShadowKnightGBA">
+            <NewsHeaderCard title="Shadow Knight"
+              author="A GameBoy Advance Game Programmed in C"
+              thumbnail={ ShadowKnight }>
+            </NewsHeaderCard>
+          </Link>
       </div>
     );
   }

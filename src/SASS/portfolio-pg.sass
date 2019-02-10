@@ -11,13 +11,23 @@
     color: rgb(236, 184, 7)
 
   a
-    text-decoration: none
-  p
-    font-weight: 600
-    color: #fff
-    font-size: 32px
-  img
-    max-width: 100%
-    height: auto
-    @media (max-width: 575px)
-      width: 80%
+    display: inline-block
+    .news-header-card
+      @media (max-width: 500px)
+        width: auto
+
+    .news-header
+      .title
+        font-size: 30px
+        font-weight: 600
+        color: rgb(236, 184, 7)
+        @media (max-width: 500px)
+          font-size: 22px
+      .bottom
+        font-size: 16px
+        font-weight: 600
+        @media (max-width: 500px)
+          visibility: hidden
+    .news-header-background
+      .overlay
+        background-image: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 35%,transparent)
