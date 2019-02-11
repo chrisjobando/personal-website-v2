@@ -14,7 +14,7 @@ class Projects extends Component {
         <h3>projects</h3>
         <h2>Check Out My Github!</h2>
         <div className="row">
-          <div>
+          <div className="proj">
             <span>
               <Link to="/shadowKnightGBA">
                 <i className="fas fa-gamepad" />
@@ -23,7 +23,7 @@ class Projects extends Component {
             <h4>Shadow Knight (CS2261)</h4>
             <p>A Mode-0 GameBoy game developed in C</p>
           </div>
-          <div>
+          <div className="proj">
             <span>
               <a href="https://github.com/team-splash/cs-2340/graphs/contributors"
                 target="_blank" rel="noopener noreferrer">
@@ -31,10 +31,9 @@ class Projects extends Component {
               </a>
             </span>
             <h4>Donation Tracker App (CS2340)</h4>
-            <p>Java-based Android App to track donations</p>
-            <p>to non-profit organizations in Atlanta</p>
+            <p>Java-based Android App to track donations to non-profit organizations in Atlanta</p>
           </div>
-          <div>
+          <div className="proj">
             <span>
               <a href="http://grandchallenges.gatech.edu/content/caelum-diagnostics"
                 target="_blank" rel="noopener noreferrer">
@@ -42,10 +41,9 @@ class Projects extends Component {
               </a>
           </span>
             <h4>Caulum Diagnostics (GC 2017)</h4>
-            <p>MATLAB-based program to monitor solar panel statistics</p>
-            <p>& warns home-owners of possible damage to their panels</p>
+            <p>MATLAB-based program to monitor solar panel statistics & warns home-owners of possible damage to their panels</p>
           </div>
-          <div>
+          <div className="proj">
             <span>
               <a href="https://chrisjobando.github.io"
                 target="_blank" rel="noopener noreferrer">
@@ -53,8 +51,7 @@ class Projects extends Component {
               </a>
             </span>
             <h4>Old Web Site (Personal)</h4>
-            <p>Gaining familiarity with HTML/CSS and related frameworks </p>
-            <p>& basic JavaScript. This site is responsive & uses Gulp</p>
+            <p>Gaining familiarity with HTML/CSS and related frameworks & basic JavaScript. This site is responsive & uses Gulp</p>
           </div>
         </div>
       </div>

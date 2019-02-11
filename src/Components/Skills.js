@@ -62,7 +62,6 @@ class Skills extends Component {
               <li>HTML</li>
               <li>CSS</li>
               <li>Jekyll</li>
-              <li>Atom</li>
             </ul>
           </div>
           <div className="subrow">
@@ -71,6 +70,7 @@ class Skills extends Component {
             </span>
             <h4>LANGUAGES</h4>
             <ul>
+              <li>Native English</li>
               <li>Native Spanish</li>
             </ul>
           </div>
@@ -80,10 +80,10 @@ class Skills extends Component {
             </span>
             <h4>APP DESIGN</h4>
             <ul>
-              <li>Angular 7</li>
+              <li>Android Studio</li>
+              <li>Angular</li>
               <li>TypeScript</li>
               <li>SASS</li>
-              <li>Sublime Text 3</li>
             </ul>
           </div>
           <div className="subrow">
