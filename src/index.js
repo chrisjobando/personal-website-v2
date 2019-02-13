@@ -19,6 +19,7 @@ import Resume from './Components/ResumePage';
 import Portfolio from './Components/PortfolioPage';
 import Contact from './Components/ContactPage';
 import GameBoy from './Components/ShadowKnightPage';
+import SpotifyApp from './Components/SpotifyAppPage';
 
 // Misc Import
 import * as serviceWorker from './serviceWorker';
@@ -58,6 +59,7 @@ class App extends Component {
             <ScrollToTopRoute path='/portfolio' exact component={ Portfolio }/>
             <ScrollToTopRoute path='/contact' exact component={ Contact }/>
             <ScrollToTopRoute path='/shadowKnightGBA' exact component={ GameBoy }/>
+            <ScrollToTopRoute path='/spotifyApp' exact component={ SpotifyApp }/>
           </div>
         </Router>
       </div>

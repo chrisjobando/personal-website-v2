@@ -35,10 +35,9 @@ class Projects extends Component {
           </div>
           <div className="proj">
             <span>
-              <a href="https://github.com/chrisjobando/spotify-app"
-                target="_blank" rel="noopener noreferrer">
+              <NavLink to="/spotifyApp">
                 <i className="fab fa-react" />
-              </a>
+              </NavLink>
           </span>
             <h4>Spotify API ReactJS App</h4>
             <p>ReactJS App Development using Spotify Web API, uses OAuth
