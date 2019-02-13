@@ -7,6 +7,7 @@ import Background from '../img/about-bg.jpg';
 
 // Other Images
 import ShadowKnight from '../img/ShadowKnight.png';
+import SpotifyApp from '../img/SpotifyApp.png';
 
 // Styling
 import '../SASS/portfolio-pg.sass';
@@ -30,6 +31,13 @@ class Portfolio extends Component {
               thumbnail={ ShadowKnight }>
             </NewsHeaderCard>
           </Link>
+          <a href="http://obando-spotify-stats.herokuapp.com/"
+              target="_blank" rel="noopener noreferrer">
+            <NewsHeaderCard title="Spotify Stats"
+              author="A ReactJS App using the Spotify Web API"
+              thumbnail={ SpotifyApp }>
+            </NewsHeaderCard>
+          </a>
       </div>
     );
   }

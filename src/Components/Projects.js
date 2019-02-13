@@ -35,13 +35,15 @@ class Projects extends Component {
           </div>
           <div className="proj">
             <span>
-              <a href="http://grandchallenges.gatech.edu/content/caelum-diagnostics"
+              <a href="https://github.com/chrisjobando/spotify-app"
                 target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-solar-panel" />
+                <i className="fab fa-react" />
               </a>
           </span>
-            <h4>Caulum Diagnostics (GC 2017)</h4>
-            <p>MATLAB-based program to monitor solar panel statistics & warns home-owners of possible damage to their panels</p>
+            <h4>Spotify API ReactJS App</h4>
+            <p>ReactJS App Development using Spotify Web API, uses OAuth
+              to give the user information on their profile, musical preferences,
+              and more!</p>
           </div>
           <div className="proj">
             <span>
