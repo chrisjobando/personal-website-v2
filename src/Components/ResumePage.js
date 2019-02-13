@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Background from '../img/skills-bg.jpg';
 
 // Resume PDF
-import Picture from '../downloads/resume.jpg';
+import Picture from '../img/resume.jpg';
 import File from '../downloads/resume.pdf';
 
 // Styling

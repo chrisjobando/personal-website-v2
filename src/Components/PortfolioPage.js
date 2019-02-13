@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { NewsHeaderCard } from 'react-ui-cards';
 
 // Section Background
@@ -25,19 +25,19 @@ class Portfolio extends Component {
       <div className="portfolio" style={ myStyles }>
         <title>my projects</title>
         <h1>Featured Projects:</h1>
-          <Link to="/ShadowKnightGBA">
-            <NewsHeaderCard title="Shadow Knight"
-              author="A GameBoy Advance Game Programmed in C"
-              thumbnail={ ShadowKnight }>
-            </NewsHeaderCard>
-          </Link>
-          <a href="http://obando-spotify-stats.herokuapp.com/"
-              target="_blank" rel="noopener noreferrer">
-            <NewsHeaderCard title="Spotify Stats"
-              author="A ReactJS App using the Spotify Web API"
-              thumbnail={ SpotifyApp }>
-            </NewsHeaderCard>
-          </a>
+        <a href="http://obando-spotify-stats.herokuapp.com/"
+            target="_blank" rel="noopener noreferrer">
+          <NewsHeaderCard title="Spotify Stats"
+            author="A ReactJS App using the Spotify Web API"
+            thumbnail={ SpotifyApp }>
+          </NewsHeaderCard>
+        </a>
+        <NavLink to="/ShadowKnightGBA">
+          <NewsHeaderCard title="Shadow Knight"
+            author="A GameBoy Advance Game Programmed in C"
+            thumbnail={ ShadowKnight }>
+          </NewsHeaderCard>
+        </NavLink>
       </div>
     );
   }

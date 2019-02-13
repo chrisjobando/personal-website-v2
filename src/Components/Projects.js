@@ -1,6 +1,6 @@
 // Initial import
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 // Styling
 import '../SASS/projects.sass';
@@ -16,9 +16,9 @@ class Projects extends Component {
         <div className="row">
           <div className="proj">
             <span>
-              <Link to="/shadowKnightGBA">
+              <NavLink to="/shadowKnightGBA">
                 <i className="fas fa-gamepad" />
-              </Link>
+              </NavLink>
           </span>
             <h4>Shadow Knight (CS2261)</h4>
             <p>A Mode-0 GameBoy game developed in C</p>
