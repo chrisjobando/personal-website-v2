@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 // Section Background
 import Background from '../img/header-bg.jpg';
 
+// Picture
+import Picture from '../img/about-pg-pic.jpg';
+
 // Styling
 import '../SASS/about-pg.sass';
 
@@ -20,6 +23,7 @@ class AboutMe extends Component {
         <div className="rect">
           <title>about me</title>
           <h1>Hey! My name is <span>Christopher</span>.</h1>
+          <img src={ Picture } alt="Me" />
 
           <p>I'm a second-year Computer Science major at Georgia Tech,
             with a minor in Film & Media Studies.</p>

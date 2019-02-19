@@ -56,7 +56,7 @@ class Skills extends Component {
             <ul>
               <li>React.js</li>
               <li>JavaScript</li>
-              <li>SASS</li>
+              <li>Sass</li>
               <li>Pug</li>
               <li>Gulp</li>
               <li>HTML</li>
@@ -66,12 +66,12 @@ class Skills extends Component {
           </div>
           <div className="subrow">
             <span>
-              <i className="fas fa-globe" />
+              <i className="fas fa-video" />
             </span>
-            <h4>LANGUAGES</h4>
+            <h4>VIDEO PRODUCTION</h4>
             <ul>
-              <li>Native English</li>
-              <li>Native Spanish</li>
+              <li>Adobe Premiere</li>
+              <li>Adobe After Effects</li>
             </ul>
           </div>
           <div className="subrow">
@@ -83,7 +83,7 @@ class Skills extends Component {
               <li>Android Studio</li>
               <li>Angular</li>
               <li>TypeScript</li>
-              <li>SASS</li>
+              <li>Sass</li>
             </ul>
           </div>
           <div className="subrow">
@@ -93,8 +93,8 @@ class Skills extends Component {
             <h4>GRAPHIC DESIGN</h4>
               <ul>
                 <li>Inkscape</li>
-                <li>GIMP</li>
                 <li>Adobe Photoshop</li>
+                <li>GIMP</li>
                 <li>POV Ray</li>
                 <li>Blender</li>
                 <li>Autodesk Maya</li>

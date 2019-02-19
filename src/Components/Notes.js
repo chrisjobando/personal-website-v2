@@ -56,7 +56,9 @@ class Notes extends Component {
                     target="_blank" rel="noopener noreferrer">Fourth Note
                   </a>
                 </li>
-                <li>
+              </ul>
+              <ul>
+               <li>
                   <a href="https://mailchi.mp/4879858953a7/k6q8ettyhq-2285557"
                     target="_blank" rel="noopener noreferrer">Fifth Note
                   </a>
@@ -70,6 +72,9 @@ class Notes extends Component {
                   <a href="https://mailchi.mp/7bf84851c89a/chris-seventh-note"
                     target="_blank" rel="noopener noreferrer">Seventh Note
                   </a>
+                </li>
+                <li>
+                  <p>Eighth Note (Coming Soon)</p>
                 </li>
               </ul>
             </div>

@@ -3,9 +3,6 @@ import React, { Component } from 'react';
 // Section Background
 import Background from '../img/header-bg.jpg';
 
-// Picture
-import Picture from '../img/about-pg-pic.jpg';
-
 // Styling
 import '../SASS/contact-pg.sass';
 
@@ -27,7 +24,7 @@ class Contact extends Component {
           chrisjobando@gatech.edu
         </a>
         <p></p>
-        <img src={ Picture } alt="Me" />
+        
       </div>
     );
   }

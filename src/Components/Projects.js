@@ -14,26 +14,7 @@ class Projects extends Component {
         <h3>projects</h3>
         <h2>Check Out My Github!</h2>
         <div className="row">
-          <div className="proj">
-            <span>
-              <NavLink to="/shadowKnightGBA">
-                <i className="fas fa-gamepad" />
-              </NavLink>
-          </span>
-            <h4>Shadow Knight (CS2261)</h4>
-            <p>A Mode-0 GameBoy game developed in C</p>
-          </div>
-          <div className="proj">
-            <span>
-              <a href="https://github.com/team-splash/cs-2340/graphs/contributors"
-                target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-mobile-alt" />
-              </a>
-            </span>
-            <h4>Donation Tracker App (CS2340)</h4>
-            <p>Java-based Android App to track donations to non-profit organizations in Atlanta</p>
-          </div>
-          <div className="proj">
+         <div className="proj">
             <span>
               <NavLink to="/spotifyApp">
                 <i className="fab fa-react" />
@@ -46,6 +27,15 @@ class Projects extends Component {
           </div>
           <div className="proj">
             <span>
+              <NavLink to="/shadowKnightGBA">
+                <i className="fas fa-gamepad" />
+              </NavLink>
+          </span>
+            <h4>Shadow Knight (CS2261)</h4>
+            <p>A Mode-0 GameBoy game developed in C</p>
+          </div>
+          <div className="proj">
+            <span>
               <a href="https://chrisjobando.github.io"
                 target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-desktop" />
@@ -53,6 +43,16 @@ class Projects extends Component {
             </span>
             <h4>Old Web Site (Personal)</h4>
             <p>Gaining familiarity with HTML/CSS and related frameworks & basic JavaScript. This site is responsive & uses Gulp</p>
+          </div>
+          <div className="proj">
+            <span>
+              <a href="https://github.com/team-splash/cs-2340/graphs/contributors"
+                target="_blank" rel="noopener noreferrer">
+                <i className="fas fa-mobile-alt" />
+              </a>
+            </span>
+            <h4>Donation Tracker App (CS2340)</h4>
+            <p>Java-based Android App to track donations to non-profit organizations in Atlanta</p>
           </div>
         </div>
       </div>
