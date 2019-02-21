@@ -24,7 +24,7 @@ class Portfolio extends Component {
     return (
       <div className="portfolio" style={ myStyles }>
         <title>my projects</title>
-        <h1>Featured Projects:</h1>
+        <p>Featured Projects:</p>
         <NavLink to="/spotifyApp">
           <NewsHeaderCard title="Spotify Stats"
             author="A ReactJS App using the Spotify Web API"

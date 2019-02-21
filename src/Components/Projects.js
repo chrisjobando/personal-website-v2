@@ -11,8 +11,8 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects" >
-        <h3>projects</h3>
-        <h2>Check Out My Github!</h2>
+        <h2>projects</h2>
+        <h1>Check Out My Github!</h1>
         <div className="row">
          <div className="proj">
             <span>
