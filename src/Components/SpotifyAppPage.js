@@ -38,8 +38,7 @@ class SpotifyApp extends Component {
                 more about.</p>
             <p>This application is still under development, and my goals for it are to
                 integrate personal stats, playlist customization, generate personalized playlists,
-                see information about your favorite artists/tracks, and eventually have a built-in
-                web player.</p>
+                see information about your favorite artists/tracks, and more!</p>
             <p>I was able to familiarize myself with backend servers too in order to implement the OAuth
                 service to generate access tokens to get a user's account information to work with the app.
                 I created it in a way for me to be able to securely get a user's information without leaking

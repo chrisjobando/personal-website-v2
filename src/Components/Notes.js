@@ -42,29 +42,29 @@ class Notes extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="https://mailchi.mp/7a12828d7734/k6q8ettyhq-2260421"
+                  <a href="http://mailchi.mp/7a12828d7734/chris-second-note"
                     target="_blank" rel="noopener noreferrer">Second Note
                   </a>
                 </li>
                 <li>
-                  <a href="https://mailchi.mp/28d9b0a98edd/k6q8ettyhq-2265173"
+                  <a href="http://mailchi.mp/28d9b0a98edd/chris-third-note"
                     target="_blank" rel="noopener noreferrer">Third Note
                   </a>
                 </li>
                 <li>
-                  <a href="https://mailchi.mp/9cea98cd793d/k6q8ettyhq-2278305"
+                  <a href="hhttp://mailchi.mp/9cea98cd793d/chris-fourth-note"
                     target="_blank" rel="noopener noreferrer">Fourth Note
                   </a>
                 </li>
               </ul>
               <ul>
                <li>
-                  <a href="https://mailchi.mp/4879858953a7/k6q8ettyhq-2285557"
+                  <a href="http://mailchi.mp/4879858953a7/chris-fifth-note"
                     target="_blank" rel="noopener noreferrer">Fifth Note
                   </a>
                 </li>
                 <li>
-                  <a href="https://mailchi.mp/137a24a7d65d/k6q8ettyhq-2291997"
+                  <a href="http://mailchi.mp/137a24a7d65d/chris-sixth-note"
                     target="_blank" rel="noopener noreferrer">Sixth Note
                   </a>
                 </li>
@@ -74,7 +74,9 @@ class Notes extends Component {
                   </a>
                 </li>
                 <li>
-                  <p>Eighth Note (Coming Soon)</p>
+                  <a href="http://mailchi.mp/8bdf81296391/chris-eighth-note"
+                    target="_blank" rel="noopener noreferrer">Eighth Note
+                  </a>
                 </li>
               </ul>
             </div>
