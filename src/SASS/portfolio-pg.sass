@@ -15,7 +15,13 @@
     display: inline-block
     .news-header-card
       @media (max-width: 500px)
-        width: auto
+        width: 400px
+      @media (max-width: 450px)
+        width: 350px
+      @media (max-width: 400px)
+        width: 300px
+      @media (max-width: 350px)
+        width: 250px
 
     .news-header
       .title
@@ -27,7 +33,7 @@
       .bottom
         font-size: 16px
         font-weight: 500
-        @media (max-width: 500px)
+        @media (max-width: 400px)
           visibility: hidden
     .news-header-background
       .overlay
