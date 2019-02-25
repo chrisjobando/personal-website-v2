@@ -12,7 +12,7 @@
     height: 90%
     background-color: rgba(0,0,0,.65)
     border-radius: .5rem
-    padding-bottom: 40px
+    padding-bottom: 20px
     @media(min-height: 900px)
       width: 65%
 
@@ -21,6 +21,41 @@
       margin-bottom: 30px
       @media (max-width: 775px)
         margin-bottom: 10px
+
+      button
+        margin-bottom: 20px
+        background: #8ac926
+        color: #fff
+        border: none
+        border-radius: 0.5rem
+        position: relative
+        height: 60px
+        font-weight: 600
+        font-size: 1em
+        cursor: pointer
+        transition: 800ms ease all
+        outline: none
+        &:hover
+          background: #fff
+          color: #8ac926
+        &:before, &:after
+          content: ''
+          position: absolute
+          top: 0
+          right: 0
+          height: 2px
+          width: 0
+          background: #8ac926
+          transition: 400ms ease all
+        &:after
+          right: inherit
+          top: inherit
+          left: 0
+          bottom: 0
+        &:hover:before, &:hover:after
+          width: 100%
+          transition: 800ms ease all
+
 
       a
         text-decoration: none

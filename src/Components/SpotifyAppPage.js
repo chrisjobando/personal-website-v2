@@ -22,13 +22,11 @@ class SpotifyApp extends Component {
           <h1>This is <span>My Spotify App</span>.</h1>
           <div className="head">
             <a href="http://obando-spotify-stats.herokuapp.com/"
-                target="_blank" rel="noopener noreferrer">See the Web App</a>
-            <br/>
-            <a href="https://developer.spotify.com/documentation/web-api/"
-                target="_blank" rel="noopener noreferrer">See the Spotify Web API Documentation</a>
+                target="_blank" rel="noopener noreferrer"><button>See the Web App</button></a>
             <br/>
             <a href="https://github.com/chrisjobando/spotify-app"
               target="_blank" rel="noopener noreferrer">See the Source Code</a>
+            <br/>
 
             <p>This Web Application was created using the ReactJS framework,
                 the Spotify Web API, SASS, and a lot of JavaScript</p>
@@ -45,6 +43,9 @@ class SpotifyApp extends Component {
                 it publically or keeping it for security purposes. Through its development, I hope to improve
                 my User Interface Design skills that I have been learning in my Design of Interactive Systems
                 class this semester as well. All updates to the app are available on my Github as well.</p>
+            <br/>
+            <a href="https://developer.spotify.com/documentation/web-api/"
+            target="_blank" rel="noopener noreferrer">See the Spotify Web API Documentation</a>
           </div>
           <p></p>
         </div>
