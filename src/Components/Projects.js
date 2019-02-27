@@ -44,16 +44,6 @@ class Projects extends Component {
             <h4>Old Web Site (Personal)</h4>
             <p>Gaining familiarity with HTML/CSS and related frameworks & basic JavaScript. This site is responsive & uses Gulp</p>
           </div>
-          <div className="proj">
-            <span>
-              <a href="https://github.com/team-splash/cs-2340/graphs/contributors"
-                target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-mobile-alt" />
-              </a>
-            </span>
-            <h4>Donation Tracker App (CS2340)</h4>
-            <p>Java-based Android App to track donations to non-profit organizations in Atlanta</p>
-          </div>
         </div>
       </div>
     );
