@@ -17,7 +17,9 @@ class Projects extends Component {
          <div className="proj">
             <span>
               <NavLink to="/spotifyApp">
-                <i className="fab fa-react" />
+                <div className='react-logo'>
+                  <i style={{color: 'rgb(50,205,50)'}} className="fab fa-react" />
+                </div>
               </NavLink>
           </span>
             <h4>Spotify API ReactJS App</h4>
@@ -28,7 +30,7 @@ class Projects extends Component {
           <div className="proj">
             <span>
               <NavLink to="/shadowKnightGBA">
-                <i className="fas fa-gamepad" />
+                <i style={{color: 'rgb(255,69,0)'}} className="fas fa-gamepad" />
               </NavLink>
           </span>
             <h4>Shadow Knight (CS2261)</h4>
@@ -38,7 +40,7 @@ class Projects extends Component {
             <span>
               <a href="https://chrisjobando.github.io"
                 target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-desktop" />
+                <i style={{color: 'rgb(236, 184, 7)'}} className="fas fa-desktop" />
               </a>
             </span>
             <h4>Old Web Site (Personal)</h4>

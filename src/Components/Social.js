@@ -12,7 +12,7 @@ class Social extends Component {
       <div className="social" >
         <h3>social media</h3>
         <h2>Follow me on other platforms!</h2>
-        <div className="row1">
+        <div className="row">
           <div>
             <span className="github">
               <a href="https://github.com/chrisjobando" target="_blank" rel="noopener noreferrer">

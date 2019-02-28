@@ -1,8 +1,7 @@
 .skills
   margin: 0 auto
   text-align: center
-  padding-top: 60px
-  padding-bottom: 100px
+  padding: 50px 0
   background-color: #102e4a
 
   img
@@ -11,24 +10,26 @@
     border-radius: 50%
 
   h1
-    margin: 0
-    font-size: 4rem
+    margin: 0 0.5rem
+    font-size: 3.5rem
+    padding-top: 15px
     color: #fff
 
-  .row
-    margin-top: 50px
-    margin-left: 30px
-    margin-right: 30px
-    display: block
-    justify-content: space-around
-    column-count: 3
-    padding: 25px 25px
-    border-radius: 0.5rem
+  .rect
+    margin: 0 auto
+    width: 90%
+    height: 90%
+    border-radius: 1rem
+    padding-bottom: 15px
     background-color: rgba(0, 0, 0, .65)
-    @media (max-width: 850px)
-      column-count: 1
+
+    .row
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-around
 
     .subrow
+      margin: 25px 50px
       span
         color: white
         line-height: 60px
@@ -52,8 +53,6 @@
           font-weight: 400
           color: #fff
           margin: 0
-          @media (max-width: 850px)
-            text-align: center
 
   a
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)

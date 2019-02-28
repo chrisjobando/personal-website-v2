@@ -22,7 +22,7 @@ class Header extends Component {
       <header style={ myStyles }>
         <img src={ Picture } alt="headshot"></img>
         <h1>{ this.props.title }</h1>
-        <p>Web Developer, Programmer, Designer, & Filmmaker</p>
+        <h2>Web Developer, Programmer, Designer, & Filmmaker</h2>
       </header>
     );
   }

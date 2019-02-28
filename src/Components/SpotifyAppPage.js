@@ -47,7 +47,6 @@ class SpotifyApp extends Component {
             <a href="https://developer.spotify.com/documentation/web-api/"
             target="_blank" rel="noopener noreferrer">See the Spotify Web API Documentation</a>
           </div>
-          <p></p>
         </div>
       </div>
     );

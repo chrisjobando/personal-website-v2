@@ -1,7 +1,6 @@
 .social
   background-color: #102e4a
-  padding-top: 60px
-  padding-bottom: 60px
+  padding: 50px 30px
   text-align: center
 
   h2
@@ -17,20 +16,18 @@
     margin: 0
     padding: 0
 
-  .row1
+  .row
+    width: 100%
     display: flex
+    flex-wrap: wrap
     justify-content: space-around
-    @media (max-width: 760px)
-      display: block
-      column-count: 3
-    @media (max-width: 410px)
-      column-count: 2
 
   span
     background-color: #fff
     width: 112px
     height: 112px
-    display: inline-block
+    margin: 0 50px
+    display: block
     border-radius: 50%
     font-size: 80px
     line-height: 120px
@@ -54,7 +51,7 @@
       color: black
 
   h4
-    margin-bottom: 8px
-    line-height: 1.2
+    margin-bottom: 30px
+    line-height: 0.5
     font-size: 18px
     color: #fff

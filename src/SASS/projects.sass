@@ -5,17 +5,17 @@
   text-align: center
 
   h1
-    font-size: 48px
+    font-size: 4rem
     color: #fff
-    margin-bottom: 48px
+    margin: 30px 0.25rem
     margin-top: 0
-    margin-left: 0.25rem
-    margin-right: 0.25rem
+    @media (max-width: 775px)
+      font-size: 2rem
 
   h2
-    font-size: 22px
     text-transform: uppercase
     color: rgb(236, 184, 7)
+    font-weight: 500
     margin: 0
     padding: 0
 
@@ -34,6 +34,8 @@
       @media (max-width: 700px)
         max-width: 80%
 
+      
+
     span
       margin-top: 20px
       background-color: #fff
@@ -50,14 +52,28 @@
     h4
       margin-bottom: 8px
       line-height: 1.2
-      font-size: 18px
+      font-size: 24px
       color: #fff
+      @media(max-width: 880px)
+        font-size: 22px
 
     p
-      font-size: 14px
+      font-size: 18px
       color: #fff
       margin: 0
       @media (max-width: 880px)
-        font-size: 12px
+        font-size: 16px
       @media (max-width: 700px)
-        font-size: 14px
+        font-size: 18px
+
+.react-logo
+  animation-name: spin
+  animation-duration: 10000ms
+  animation-iteration-count: infinite
+  animation-timing-function: linear
+
+@keyframes spin
+  from
+      transform: rotate(0deg)
+  to
+      transform: rotate(360deg)
