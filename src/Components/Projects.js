@@ -12,7 +12,8 @@ class Projects extends Component {
     return (
       <div className="projects" >
         <h2>projects</h2>
-        <h1>Check Out My Github!</h1>
+        <h1>Check Out My <a className='github-link' target="_blank" rel="noopener noreferrer"
+          href='https://github.com/chrisjobando'>Github!</a></h1>
         <div className="row">
          <div className="proj">
             <span>
