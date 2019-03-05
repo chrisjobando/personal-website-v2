@@ -30,7 +30,7 @@ class SpotifyApp extends Component {
 
             <p>This Web Application was created using the ReactJS framework,
                 the Spotify Web API, SASS, and a lot of JavaScript</p>
-            <p>I chose to make this develop this application because I wanted
+            <p>I chose to develop this application because I wanted
                 to challenge myself to learn more about open-source APIs, and Spotify
                 is a service I use daily that I was interested in learning
                 more about.</p>
