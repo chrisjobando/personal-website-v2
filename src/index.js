@@ -49,7 +49,7 @@ class App extends Component {
     return (
       <div>
         <Router>
-          <div style={{ height: '100%' }}>
+          <div style={{height: '100%'}}>
             <Navigation drawerClickHandler={this.drawerToggleClickHandler} />
             <NavDrawer show={this.state.navDrawerOpen} />
             {backdrop}
