@@ -40,7 +40,7 @@ class Social extends Component {
           </div>
           <div>
             <span className="instagram">
-              <a href="https://instagram.com/chrisjobando" target="_blank"
+              <a href="https://instagram.com/chris.obando" target="_blank"
                 rel="noopener noreferrer">
                 <i className="fab fa-instagram" />
               </a>
