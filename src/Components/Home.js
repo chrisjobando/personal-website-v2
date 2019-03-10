@@ -7,7 +7,6 @@ import '../SASS/index.sass';
 // Index Components
 import Header from './Header';
 import Projects from './Projects';
-import Skills from './Skills';
 import Social from './Social';
 import Notes from './Notes';
 
@@ -21,7 +20,6 @@ class Home extends Component {
         <Projects />
         <Notes title="Sign up for Chris' Notes!" />
         <Social />
-        <Skills title="Skills" />
       </div>
     );
   }

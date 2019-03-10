@@ -37,11 +37,6 @@ class Notes extends Component {
               <p>Here is an archive to previous Notes that I have released:</p>
               <ul>
                 <li>
-                  <a href="http://mailchi.mp/7a12828d7734/chris-second-note"
-                    target="_blank" rel="noopener noreferrer">Second Note
-                  </a>
-                </li>
-                <li>
                   <a href="http://mailchi.mp/28d9b0a98edd/chris-third-note"
                     target="_blank" rel="noopener noreferrer">Third Note
                   </a>
@@ -56,14 +51,14 @@ class Notes extends Component {
                     target="_blank" rel="noopener noreferrer">Fifth Note
                   </a>
                 </li>
-              </ul>
-              {/* {Second Row} */}
-              <ul>
                 <li>
                   <a href="http://mailchi.mp/137a24a7d65d/chris-sixth-note"
                     target="_blank" rel="noopener noreferrer">Sixth Note
                   </a>
                 </li>
+              </ul>
+              {/* {Second Row} */}
+              <ul>
                 <li>
                   <a href="https://mailchi.mp/7bf84851c89a/chris-seventh-note"
                     target="_blank" rel="noopener noreferrer">Seventh Note
@@ -77,6 +72,11 @@ class Notes extends Component {
                 <li>
                   <a href="https://mailchi.mp/097cb20420b4/chris-ninth-note"
                     target="_blank" rel="noopener noreferrer">Ninth Note
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mailchi.mp/09ac7e1d9a93/chris-tenth-note"
+                    target="_blank" rel="noopener noreferrer">Tenth Note
                   </a>
                 </li>
               </ul>
