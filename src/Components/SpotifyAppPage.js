@@ -35,8 +35,8 @@ class SpotifyApp extends Component {
         <div className="rect">
           <title>spotify app</title>
           <h1>This is <span>My Spotify App</span>.</h1>
-          <br/>
           <Fade {...fadeProperties}>
+            <br/>
             <div className="each-fade">
               <div className="image-container">
                 <img src={Image1} alt=""/>

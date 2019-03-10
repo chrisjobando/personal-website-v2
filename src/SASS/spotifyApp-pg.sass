@@ -16,6 +16,10 @@
     @media(min-height: 900px)
       width: 65%
 
+    .react-slideshow-container, .indicators
+      @media(max-width: 550px)
+        display: none
+
     .head
       margin: auto auto
       margin-bottom: 30px
@@ -60,6 +64,10 @@
       &:hover:before, &:hover:after
         width: 80%
         transition: 800ms ease all
+
+      @media(max-width: 550px)
+        font-size: 1.25rem
+        padding: 0 0.5rem
 
     a
       text-decoration: none
