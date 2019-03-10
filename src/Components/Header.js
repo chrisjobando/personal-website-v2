@@ -20,7 +20,7 @@ class Header extends Component {
   render() {
     return (
       <header style={ myStyles }>
-        <img src={ Picture } alt="headshot"></img>
+        <img src={ Picture } alt=""></img>
         <h1>{ this.props.title }</h1>
         <h2>Web Developer, Programmer, Designer, & Filmmaker</h2>
       </header>

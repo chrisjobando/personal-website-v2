@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
+import { Fade } from 'react-slideshow-image';
 
 // Section Background
 import Background from '../img/header-bg.jpg';
 
 // Styling
 import '../SASS/spotifyApp-pg.sass';
+
+//Images
+import Image1 from "../img/SpotifyPage/1.jpg";
+import Image2 from "../img/SpotifyPage/2.jpg";
+import Image3 from "../img/SpotifyPage/3.jpg";
+import Image4 from "../img/SpotifyPage/4.jpg";
+import Image5 from "../img/SpotifyPage/5.jpg";
 
 // Creates Section Styling
 const myStyles = {
@@ -15,11 +23,47 @@ const myStyles = {
 
 class SpotifyApp extends Component {
   render() {
+    const fadeProperties = {
+      duration: 5000,
+      transitionDuration: 500,
+      infinite: true,
+      indicators: true
+    }
+
     return (
       <div className="spotify-app" style={ myStyles }>
         <div className="rect">
           <title>spotify app</title>
           <h1>This is <span>My Spotify App</span>.</h1>
+          <br/>
+          <Fade {...fadeProperties}>
+            <div className="each-fade">
+              <div className="image-container">
+                <img src={Image1} alt=""/>
+              </div>
+            </div>
+            <div className="each-fade">
+              <div className="image-container">
+                <img src={Image2} alt=""/>
+              </div>
+            </div>
+            <div className="each-fade">
+              <div className="image-container">
+                <img src={Image3} alt=""/>
+              </div>
+            </div>
+            <div className="each-fade">
+              <div className="image-container">
+               <img src={Image4} alt=""/>
+              </div>
+            </div>
+            <div className="each-fade">
+              <div className="image-container">
+                <img src={Image5} alt=""/>
+              </div>
+            </div>
+          </Fade>
+          <br/>
           <div className="head">
             <a href="http://obando-spotify-stats.herokuapp.com/"
                 target="_blank" rel="noopener noreferrer"><button>See the Web App</button></a>

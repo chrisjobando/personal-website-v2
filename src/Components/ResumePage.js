@@ -13,7 +13,7 @@ import '../SASS/resume-pg.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  minHeight: '50vh',
+  minHeight: '90vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };
@@ -29,7 +29,8 @@ class Resume extends Component {
               Download the PDF
             </button>
           </a>
-          <img src={Picture} alt="Resume" />
+          <br/>
+          <img src={Picture} alt=""/>
       </div>
     );
   }

@@ -23,7 +23,7 @@ class AboutMe extends Component {
         <div className="rect">
           <title>about me</title>
           <h1>Hey! My name is <span>Christopher</span>.</h1>
-          <img src={ Picture } alt="Me" />
+          <img src={ Picture }  alt=""/>
 
           <p>I'm a second-year Computer Science major at Georgia Tech,
             with a minor in Film & Media Studies.</p>
