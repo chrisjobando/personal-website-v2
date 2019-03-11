@@ -24,10 +24,11 @@ const myStyles = {
 class SpotifyApp extends Component {
   render() {
     const fadeProperties = {
-      duration: 5000,
+      duration: 2500,
       transitionDuration: 500,
       infinite: true,
-      indicators: true
+      arrows: false,
+      indicators: false
     }
 
     return (
