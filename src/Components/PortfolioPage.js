@@ -7,7 +7,7 @@ import Background from '../img/about-bg.jpg';
 
 // Other Images
 import ShadowKnight from '../img/ShadowKnight.png';
-import SpotifyApp from '../img/SpotifyApp.png';
+import SpotifyApp from '../img/SpotifyApp.jpg';
 import ComputerGraphics from '../img/ComputerGraphics.png';
 
 // Styling
