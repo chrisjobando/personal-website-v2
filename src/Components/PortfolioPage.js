@@ -8,6 +8,7 @@ import Background from '../img/about-bg.jpg';
 // Other Images
 import ShadowKnight from '../img/ShadowKnight.png';
 import SpotifyApp from '../img/SpotifyApp.png';
+import ComputerGraphics from '../img/ComputerGraphics.png';
 
 // Styling
 import '../SASS/portfolio-pg.sass';
@@ -25,10 +26,16 @@ class Portfolio extends Component {
       <div className="portfolio" style={ myStyles }>
         <title>my projects</title>
         <p>Featured Projects:</p>
-        <NavLink to="/spotifyApp">
+        <NavLink to="/SpotifyApp">
           <NewsHeaderCard title="Spotify Stats"
             author="A ReactJS App using the Spotify Web API"
             thumbnail={ SpotifyApp }>
+          </NewsHeaderCard>
+        </NavLink>
+        <NavLink to="/ComputerGraphics">
+          <NewsHeaderCard title="Computer Graphics"
+            author="Work from my UC3M Course"
+            thumbnail={ ComputerGraphics }>
           </NewsHeaderCard>
         </NavLink>
         <NavLink to="/ShadowKnightGBA">

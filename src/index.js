@@ -20,6 +20,7 @@ import Portfolio from './Components/PortfolioPage';
 import Contact from './Components/ContactPage';
 import GameBoy from './Components/ShadowKnightPage';
 import SpotifyApp from './Components/SpotifyAppPage';
+import ComputerGraphics from './Components/ComputerGraphics';
 
 // Misc Import
 import * as serviceWorker from './serviceWorker';
@@ -58,8 +59,9 @@ class App extends Component {
             <ScrollToTopRoute path='/resume' exact component={ Resume }/>
             <ScrollToTopRoute path='/portfolio' exact component={ Portfolio }/>
             <ScrollToTopRoute path='/contact' exact component={ Contact }/>
-            <ScrollToTopRoute path='/shadowKnightGBA' exact component={ GameBoy }/>
-            <ScrollToTopRoute path='/spotifyApp' exact component={ SpotifyApp }/>
+            <ScrollToTopRoute path='/ShadowKnightGBA' exact component={ GameBoy }/>
+            <ScrollToTopRoute path='/SpotifyApp' exact component={ SpotifyApp }/>
+            <ScrollToTopRoute path='/ComputerGraphics' exact component={ ComputerGraphics }/>
           </div>
         </Router>
       </div>
