@@ -31,7 +31,7 @@ class ComputerGraphics extends Component {
             <img src={Assignment11} alt=' '/><br/>
             <br/>
             <h2>Assignment 2: Terragen Scene</h2>
-            <img src={Assignment2} alt=' '/>
+            <img style={{width: '60%'}} src={Assignment2} alt=' '/>
         </div>
       </div>
     );
