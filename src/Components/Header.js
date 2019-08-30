@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 // Section Background
 import Background from '../img/header-bg.jpg';
-import Picture from '../img/headshot.gif';
+import Picture from '../img/headshot.png';
 
 // Styling
 import '../SASS/header.sass';

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // Section Background
 import Background from '../img/header-bg.jpg';
+import Picture from '../img/contact-pg-pic.jpg';
 
 // Styling
 import '../SASS/contact-pg.sass';
@@ -23,6 +24,8 @@ class Contact extends Component {
         <a href="mailto:chrisjobando@gatech.edu">
           chrisjobando@gatech.edu
         </a>
+        <br/>
+        <img src={ Picture } alt=""/>
         <p></p>
         
       </div>

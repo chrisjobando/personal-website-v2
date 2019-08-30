@@ -25,7 +25,7 @@ class AboutMe extends Component {
           <h1>Hey! My name is <span>Christopher</span>.</h1>
           <img src={ Picture }  alt=""/>
 
-          <p>I'm a second-year Computer Science major at Georgia Tech,
+          <p>I'm a third-year Computer Science major at Georgia Tech,
             with a minor in Film & Media Studies.</p>
           <p>Growing up as a first-generation Hispanic-American right outside of DC,
             I felt trapped within a community with few public resources and fewer means of growth

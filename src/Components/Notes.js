@@ -37,46 +37,46 @@ class Notes extends Component {
               <p>Here is an archive to previous Notes that I have released:</p>
               <ul>
                 <li>
-                  <a href="http://mailchi.mp/137a24a7d65d/chris-sixth-note"
-                    target="_blank" rel="noopener noreferrer">Sixth Note
-                  </a>
-                </li>
-                <li>
-                  <a href="https://mailchi.mp/7bf84851c89a/chris-seventh-note"
-                    target="_blank" rel="noopener noreferrer">Seventh Note
-                  </a>
-                </li>
-                <li>
-                  <a href="http://mailchi.mp/8bdf81296391/chris-eighth-note"
-                    target="_blank" rel="noopener noreferrer">Eighth Note
-                  </a>
-                </li>
-                <li>
-                  <a href="https://mailchi.mp/097cb20420b4/chris-ninth-note"
-                    target="_blank" rel="noopener noreferrer">Ninth Note
-                  </a>
-                </li>
-              </ul>
-              {/* {Second Row} */}
-              <ul>
-                <li>
-                  <a href="https://mailchi.mp/09ac7e1d9a93/chris-tenth-note"
-                    target="_blank" rel="noopener noreferrer">Tenth Note
-                  </a>
-                </li>
-                <li>
                   <a href="https://mailchi.mp/b342b881ef2f/chris-eleventh-note"
                     target="_blank" rel="noopener noreferrer">Eleventh Note
                   </a>
                 </li>
                 <li>
                   <a href="https://mailchi.mp/e03f839783a5/chris-twelfth-note"
-                    target="_blank" rel="noopener noreferrer">Twelth Note
+                    target="_blank" rel="noopener noreferrer">Twelfth Note
                   </a>
                 </li>
                 <li>
                   <a href="https://mailchi.mp/b50433e1bac7/chris-thirteenth-note"
                     target="_blank" rel="noopener noreferrer">Thirteenth Note
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mailchi.mp/225297b1bcec/chris-fourteeth-note"
+                    target="_blank" rel="noopener noreferrer">Fourteenth Note
+                  </a>
+                </li>
+              </ul>
+              {/* {Second Row} */}
+              <ul>
+                <li>
+                  <a href="https://mailchi.mp/63d3f3b92119/chris-fifteenth-note"
+                    target="_blank" rel="noopener noreferrer">Fifteenth Note
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mailchi.mp/a89322f68b4c/chris-sixteenth-note"
+                    target="_blank" rel="noopener noreferrer">Sixteenth Note
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mailchi.mp/25cdacd5c6e3/chris-seventeenth-note"
+                    target="_blank" rel="noopener noreferrer">Seventeenth Note
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mailchi.mp/9927bba23792/chris-seventeenth-note-2353809"
+                    target="_blank" rel="noopener noreferrer">Eighteenth Note
                   </a>
                 </li>
               </ul>
