@@ -2,8 +2,8 @@
   position: fixed
   z-index: 200
   width: 100%
-  background-color: #102e4a
-  height: 60px
+  background-color: #fff
+  height: 80px
 
   .toolbar-nav
     display: flex
@@ -20,15 +20,17 @@
       @media (min-width: 769px)
         margin-left: 0
       a
-        background: url('../img/logo.png') no-repeat left center
+        background: url('../img/logo.png') left center no-repeat
+        background-size: cover
+        height: 60px
+        width: 700px
         float: right
         font-size: 0px
-        height: 40px
-        width: 500px
-        display: block
-        @media (max-width: 880px)
-          background: url('../img/logo-notext.png') no-repeat left center
-          width: 98px
+        display: inline-block
+        @media (max-width: 1200px)
+          background: url('../img/logo-notext.png') no-repeat center center
+          background-size: cover
+          width: 155px
 
     .spacer
       flex: 1
@@ -43,28 +45,17 @@
           padding: 0 0.5rem
 
       a
-        color: white
+        color: #102e4a
         text-decoration: none
+        font-size: 20px
         font-weight: 500
         &:hover, &:active
           color: rgb(236, 184, 7)
-      
+
       .is-active
+        font-size: 20px
         color: rgb(236, 184, 7)
 
 @media (max-width: 768px)
   .toolbar-nav-items
     display: none
-
-//   .logo
-//     z-index: 3
-//     margin-left: 20px
-//     width: 100%
-//     max-width: 500px
-//     height: 100%
-//     box-sizing: border-box
-//
-//
-//     @media (max-width: 1030px)
-//       max-width: 150px
-//       background: url('../img/logo-notext.png') left center no-repeat
