@@ -3,7 +3,8 @@
   z-index: 200
   width: 100%
   background-color: #fff
-  height: 80px
+  height: 65px
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5)
 
   .toolbar-nav
     display: flex
@@ -11,26 +12,34 @@
     height: 100%
     padding: 0 1rem
 
-    @media (min-width: 769px)
+    @media (min-width: 770px)
       .toggle-button
         display: none
 
     .toolbar-logo
       margin-left: 1rem
-      @media (min-width: 769px)
+      @media (min-width: 770px)
         margin-left: 0
       a
         background: url('../img/logo.png') left center no-repeat
         background-size: cover
-        height: 60px
-        width: 700px
+        height: 35px
+        width: 420px
         float: right
         font-size: 0px
         display: inline-block
-        @media (max-width: 1200px)
+        @media (max-width: 875px)
           background: url('../img/logo-notext.png') no-repeat center center
           background-size: cover
-          width: 155px
+          width: 90px
+        @media (max-width: 770px)
+          background: url('../img/logo.png') left center no-repeat
+          background-size: cover
+          width: 420px
+        @media (max-width: 500px)
+          background: url('../img/logo-notext.png') no-repeat center center
+          background-size: cover
+          width: 90px
 
     .spacer
       flex: 1
@@ -45,15 +54,14 @@
           padding: 0 0.5rem
 
       a
-        color: #102e4a
+        color: #2e5266
         text-decoration: none
-        font-size: 20px
-        font-weight: 500
+        font-size: 18px
+        font-weight: 700
         &:hover, &:active
           color: rgb(236, 184, 7)
 
       .is-active
-        font-size: 20px
         color: rgb(236, 184, 7)
 
 @media (max-width: 768px)

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 // Section Background
 import Background from '../img/header-bg.jpg';
-import Picture from '../img/headshot.png';
 
 // Styling
 import '../SASS/header.sass';
@@ -12,7 +11,7 @@ import '../SASS/header.sass';
 const myStyles = {
   backgroundImage: `url(${Background})`,
   backgroundSize: 'cover',
-  backgroundPosition: 'center',
+  backgroundPosition: 'center right',
 };
 
 // Main HTML
@@ -20,9 +19,8 @@ class Header extends Component {
   render() {
     return (
       <header style={ myStyles }>
-        <img src={ Picture } alt=""></img>
         <h1>{ this.props.title }</h1>
-        <h2>Web Developer, Programmer, Designer, & Filmmaker</h2>
+        {/* <h2>Web Developer, Programmer, Designer, & Filmmaker</h2> */}
       </header>
     );
   }
