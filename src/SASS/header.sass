@@ -1,18 +1,49 @@
-header
-  padding: 75px 0 0
+.header
+  margin: 65px 0 0 0
   text-align: center
   height: 100vh
+  width: 100%
+  background: url("../img/background1.jpg") no-repeat
+  background-size: auto
   background-color: #fff
+  padding-top: 15vh
+  @media(min-width: 1500px)
+    text-align: left
+    background: url("../img/header-bg.jpg") no-repeat
+    background-size: 100%
+    background-color: #fff
+    background-position: bottom right
+    padding-top: 0
+
+  img
+    height: 0
+    width: 0
+    @media(max-width: 1499px)
+      display: block
+      margin: 0 auto
+      height: 300px
+      width: 300px
+      border-radius: 50%
+    @media (max-width: 775px)
+      height: 200px
+      width: 200px
 
   h1
-    margin: 0
-    padding: 40vh 0 0
-    color: #fff
+    z-index: 99
+    margin: 0 30px
+    color: #2e5266
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff
     font-size: 15vmin
+    @media(min-width: 1500px)
+      padding-top: 35vh
+    @media(max-width: 875px)
+      font-size: 12vmin
+    @media(max-width: 500px)
+      font-size: 9vmin
 
   h2
+    z-index: 99
+    margin: 0 30px
     font-size: 4vmin
     font-weight: 500
-    padding: 0
-    margin: 0 30px
     color: rgb(236, 184, 7)
