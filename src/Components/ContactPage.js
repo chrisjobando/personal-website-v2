@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Section Background
-import Background from '../img/header-bg.jpg';
+import Background from '../img/background1.jpg';
 import Picture from '../img/contact-pg-pic.jpg';
 
 // Styling
@@ -26,8 +26,6 @@ class Contact extends Component {
         </a>
         <br/>
         <img src={ Picture } alt=""/>
-        <p></p>
-        
       </div>
     );
   }

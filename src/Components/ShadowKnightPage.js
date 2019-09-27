@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Section Background
-import Background from '../img/header-bg.jpg';
+import Background from '../img/background1.jpg';
 
 // Styling
 import '../SASS/shadowKnight-pg.sass';

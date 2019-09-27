@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Fade } from 'react-slideshow-image';
 
 // Section Background
-import Background from '../img/header-bg.jpg';
+import Background from '../img/background1.jpg';
 
 // Styling
 import '../SASS/spotifyApp-pg.sass';

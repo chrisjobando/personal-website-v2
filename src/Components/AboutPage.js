@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Section Background
-import Background from '../img/header-bg.jpg';
+import Background from '../img/background1.jpg';
 
 // Picture
 import Picture from '../img/about-pg-pic.jpg';
@@ -19,7 +19,7 @@ const myStyles = {
 class AboutMe extends Component {
   render() {
     return (
-      <div className="about" style={ myStyles }>
+      <div className="about" style={myStyles}>
         <div className="rect">
           <title>about me</title>
           <h1>Hey! My name is <span>Christopher</span>.</h1>

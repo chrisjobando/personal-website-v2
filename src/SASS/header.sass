@@ -1,38 +1,49 @@
-header
-  margin: 0 auto
+.header
+  margin: 65px 0 0 0
   text-align: center
-  padding-top: 10px
-  padding-bottom: 140px
-  background-color: #102e4a
-  @media (max-width: 775px)
-    padding-bottom: 70px
+  height: 100vh
+  width: 100%
+  background: url("../img/background1.jpg") no-repeat
+  background-size: auto
+  background-color: #fff
+  padding-top: 15vh
+  @media(min-width: 1500px)
+    text-align: left
+    background: url("../img/header-bg.jpg") no-repeat
+    background-size: 100%
+    background-color: #fff
+    background-position: bottom right
+    padding-top: 0
 
   img
-    margin-top: 140px
-    height: 300px
-    width: 300px
-    border-radius: 50%
+    height: 0
+    width: 0
+    @media(max-width: 1499px)
+      display: block
+      margin: 0 auto
+      height: 300px
+      width: 300px
+      border-radius: 50%
     @media (max-width: 775px)
       height: 200px
       width: 200px
-      margin-top: 90px
 
   h1
-    width: auto
-    margin: 0 0.5rem
-    color: #fff
-    font-size: 4rem
-    @media (max-width: 775px)
-      font-size: 2rem
+    z-index: 99
+    margin: 0 30px
+    color: #2e5266
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff
+    font-size: 15vmin
+    @media(min-width: 1500px)
+      padding-top: 35vh
+    @media(max-width: 875px)
+      font-size: 12vmin
+    @media(max-width: 500px)
+      font-size: 9vmin
 
   h2
-    width: auto
+    z-index: 99
+    margin: 0 30px
+    font-size: 4vmin
     font-weight: 500
     color: rgb(236, 184, 7)
-    margin-top: 0
-    margin-bottom: 30px
-    margin-left: 0.5rem
-    margin-right: 0.5rem
-    @media (max-width: 775px)
-      margin-bottom: 0
-      font-size: 1.25rem
