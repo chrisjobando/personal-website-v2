@@ -2,23 +2,23 @@
 import React, { Component } from 'react';
 
 // Section Background
-import Background from '../img/notes-bg.jpg';
+// import Background from '../img/notes-bg.jpg';
 
 // Styling
 import '../SASS/notes.sass';
 
 // Creates Section Styling
-const myStyles = {
-  backgroundImage: `url(${Background})`,
-  backgroundSize: 'cover',
-  backgroundPosition: 'center bottom',
-};
+// const myStyles = {
+//   backgroundImage: `url(${Background})`,
+//   backgroundSize: 'cover',
+//   backgroundPosition: 'center bottom',
+// };
 
 // Main HTML
 class Notes extends Component {
   render() {
     return (
-      <div className="notes" style={ myStyles }>
+      <div className="notes">
         <div className='rect'>
           <h1>{ this.props.title }</h1>
           <a href="https://mailchi.mp/450dd1397947/chris-notes-subscribe"
