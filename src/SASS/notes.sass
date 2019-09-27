@@ -5,7 +5,12 @@
   align-items: center
   text-align: center
   height: 100vh
-  background-color: #2e5266
+  background-color: #fff
+  background-image: url('../img/notes-bg.jpg')
+  background-size: cover
+  background-position: center bottom
+  @media (max-width: 950px)
+    height: 130vh
 
   .rect
     margin: auto
@@ -14,6 +19,8 @@
     height: auto
     background-color: rgba(0,0,0,.65)
     border-radius: 1rem
+    @media (max-width: 950px)
+      width: 80%
 
     h1
       margin: 0 0.5rem
