@@ -24,26 +24,28 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio" style={ myStyles }>
-        <title>my projects</title>
-        <p>Featured Projects:</p>
-        <NavLink to="/SpotifyApp">
-          <NewsHeaderCard title="Spotify Stats"
-            author="A ReactJS App using the Spotify Web API"
-            thumbnail={ SpotifyApp }>
-          </NewsHeaderCard>
-        </NavLink>
-        <NavLink to="/ComputerGraphics">
-          <NewsHeaderCard title="Computer Graphics"
-            author="Work from my UC3M Course"
-            thumbnail={ ComputerGraphics }>
-          </NewsHeaderCard>
-        </NavLink>
-        <NavLink to="/ShadowKnightGBA">
-          <NewsHeaderCard title="Shadow Knight"
-            author="A GameBoy Advance Game Programmed in C"
-            thumbnail={ ShadowKnight }>
-          </NewsHeaderCard>
-        </NavLink>
+        <div className="rect">
+          <title>my projects</title>
+          <p>Featured Projects:</p>
+          <NavLink to="/SpotifyApp">
+            <NewsHeaderCard title="Spotify Stats"
+              author="A ReactJS App using the Spotify Web API"
+              thumbnail={ SpotifyApp }>
+            </NewsHeaderCard>
+          </NavLink>
+          <NavLink to="/ComputerGraphics">
+            <NewsHeaderCard title="Computer Graphics"
+              author="Work from my UC3M Course"
+              thumbnail={ ComputerGraphics }>
+            </NewsHeaderCard>
+          </NavLink>
+          <NavLink to="/ShadowKnightGBA">
+            <NewsHeaderCard title="Shadow Knight"
+              author="A GameBoy Advance Game Programmed in C"
+              thumbnail={ ShadowKnight }>
+            </NewsHeaderCard>
+          </NavLink>
+        </div>
       </div>
     );
   }
