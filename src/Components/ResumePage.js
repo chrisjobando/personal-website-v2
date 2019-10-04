@@ -22,7 +22,8 @@ class Resume extends Component {
   render() {
     return (
       <div className="resume" style={ myStyles }>
-        <title>my resume</title>
+        <div className="rect">
+          <title>my resume</title>
           <a href={File}
             download="Resume.pdf">
               <button>
@@ -31,6 +32,7 @@ class Resume extends Component {
           </a>
           <br/>
           <img src={Picture} alt=""/>
+        </div>
       </div>
     );
   }

@@ -19,13 +19,17 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact" style={ myStyles }>
-        <title>contact me</title>
-        <h1>Shoot Me An Email!</h1>
-        <a href="mailto:chrisjobando@gatech.edu">
-          chrisjobando@gatech.edu
-        </a>
-        <br/>
-        <img src={ Picture } alt=""/>
+        <div className="rect">
+          <div>
+            <title>contact me</title>
+            <h1>Shoot Me An Email!</h1>
+            <a href="mailto:chrisjobando@gatech.edu">
+              chrisjobando@gatech.edu
+            </a>
+            <br/>
+            <img src={ Picture } alt=""/>
+          </div>
+        </div>
       </div>
     );
   }
