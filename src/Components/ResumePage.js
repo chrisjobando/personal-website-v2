@@ -13,7 +13,7 @@ import '../SASS/resume-pg.sass';
 // Creates Section Styling
 const myStyles = {
   backgroundImage: `url(${Background})`,
-  minHeight: '90vh',
+  minHeight: '100vh',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
 };

@@ -3,28 +3,32 @@
   text-align: center
   color: #fff
   padding-top: 60px
+  height: 100vh
   background-color: #fff
+
 
   .rect
     width: 100%
-    height: auto
-    padding-bottom: 30px
+    height: 100vh
     background-color: rgba(0,0,0,.65)
 
     img
-      width: 50%
+      width: 80%
       height: auto
+      margin-top: 60px
       border-radius: 0.5rem
-      @media (max-width: 1150px)
-        width: 80%
 
     h1
-      padding-top: 30px
+      padding-top: 60px
       padding-bottom: 10px
       width: auto
       margin: 0
       font-size: 3rem
       @media (max-width: 875px)
+        padding-top: 30px
+      @media (max-width: 600px)
+        font-size: 2rem
+      @media (max-width: 450px)
         font-size: 1.5rem
 
       span
@@ -35,9 +39,21 @@
       margin: 0 auto
       max-width: 90%
       text-align: left
-      font-size: 23px
+      font-size: 24px
       line-height: 1.25em
 
       @media (max-width: 800px)
-        padding-top: 10px
-        font-size: 18px
+        padding-top: 15px
+        font-size: 22px
+
+  @media only screen and (min-width: 875px)
+    .rect
+      display: flex
+
+    .col
+      flex: 1
+  @media (max-height: 1000px)
+    height: 150vh
+
+    .rect
+      height: 150vh

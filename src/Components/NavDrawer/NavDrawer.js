@@ -15,8 +15,7 @@ const navDrawer = props => {
           <li><NavLink to="/" exact={true} activeClassName='is-active'>Home</NavLink></li>
           <li><NavLink to="/about" activeClassName='is-active'>About</NavLink></li>
           <li><NavLink to="/resume" activeClassName='is-active'>Resume</NavLink></li>
-          <li><NavLink to="/portfolio" activeClassName='is-active'>Portfolio</NavLink></li>
-          <li><NavLink to="/contact" activeClassName='is-active'>Contact</NavLink></li>
+          <li><NavLink to="/portfolio" activeClassName='is-active'>Projects</NavLink></li>
       </ul>
     </nav>
   );

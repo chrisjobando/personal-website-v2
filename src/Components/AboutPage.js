@@ -21,36 +21,19 @@ class AboutMe extends Component {
     return (
       <div className="about" style={myStyles}>
         <div className="rect">
-          <title>about me</title>
-          <h1>Hey! My name is <span>Christopher</span>.</h1>
-          <img src={ Picture }  alt=""/>
+          <div className="col">
+            <img src={ Picture }  alt=""/>
+          </div>
+          <div className="col">
+            <title>about me</title>
+            <h1>Hey! My name is <span>Christopher</span>.</h1>
+            <p>I'm a third year Computer Science major at the Georgia Institute of Technology. I have experience working in React, Java, JavaScript, Angular, TypeScript, Python - and hopefully more in the future!</p>
+            <p>I am currently interning at Elavon, Inc. where I work on backend Java development for payment processing software. I also do a lot of volunteer work for <a href="https://bitsofgood.org/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'rgb(236, 184, 7)' }}>GT Bits of Good</a> and <a href="https://www.codeforatlanta.org/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'rgb(236, 184, 7)' }}>Code for Atlanta</a> in React!</p>
 
-          <p>I'm a third-year Computer Science major at Georgia Tech,
-            with a minor in Film & Media Studies.</p>
-          <p>Growing up as a first-generation Hispanic-American right outside of DC,
-            I felt trapped within a community with few public resources and fewer means of growth
-            for those who did not take risks. I looked to music and television as a means of escape
-            from reality. The amazing production in the music videos I watched and films I saw
-            inspired me to pursue a career in computer graphic design.</p>
-          <p>The wonders of seeing the dinosaurs in Jurassic Park or the pod-racing scene in The
-            Phantom Menace or my favorite childhood hero, Spider-Man, swing across New York
-            City through the use of CGI gave me a sense of wonder and joy that I needed during
-            rough times. I aim to one day create that same feeling for others through my digital
-            creations.</p>
-          <p>I arrived at Georgia Tech with a strong passion for technology but was unsure what
-            courses best fit my interests. When I found out about the Media and People threads,
-            I made the switch halfway through my first semester to Computer
-            Science to improve my basic programming skills. I wanted to learn how to turn code that
-            I develop into an experience for users.</p>
-          <p>In the upcoming semesters, I am taking high-level UI/UX CS courses as well as 3D
-            design courses offered by the School of Industrial Design. This, combined with production
-            skills from my Film Studies Minor, will aid me in a career in 3D Animation and/or Digital
-            Media Production.</p>
-          <p>In my free time, I enjoy listening to indie R&B music and playing guitar/singing at
-            open-mic nights in the GT Student Center. I consider myself a film-buff and an amateur
-            filmmaker. I am currently working on a new short film this year! I also am always
-            sketching on my notepad, and am working towards publishing more of my illustrations
-            online.</p>
+            <p>When I am not coding, you can find me exercising, reading, editing short films, and advising freshman through Hispanic Recruitment Team at Georgia Tech.</p>
+
+            <p>Follow me my social media, or reach me by email - <a href="mailto:chrisjobando@gatech.edu" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'rgb(236, 184, 7)' }}>chrisjobando@gatech.edu</a> </p>
+          </div>
         </div>
       </div>
     );
