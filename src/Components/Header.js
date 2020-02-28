@@ -12,9 +12,13 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <img src={ Picture } alt=""></img>
-        <h1>{ this.props.title }</h1>
-        <h2>Web Developer, Programmer, Designer, & Filmmaker</h2>
+        <div className="rect">
+          <br style={{ marginTop: '15vh' }} />
+          <img src={ Picture } alt=""></img>
+          <h1>{ this.props.title }</h1>
+          <h2>Web Developer, Programmer, Designer, & Filmmaker</h2>
+        </div>
+
       </div>
     );
   }
